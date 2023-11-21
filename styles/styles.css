@@ -268,6 +268,16 @@ main .section {
   }
 }
 
+@media (max-width: 899px) {
+  main img {
+    max-width: 40%; /* Adjust the percentage as needed */
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+
+
 /* section metadata */
 main .section.highlight {
   background-color: var(--highlight-background-color);
