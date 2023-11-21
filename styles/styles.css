@@ -9,6 +9,7 @@
  * OF ANY KIND, either express or implied. See the License for the specific language
  * governing permissions and limitations under the License.
  */
+ @import url('https://fonts.googleapis.com/css?family=Noto+Serif');
 
  :root {
   /* colors */
@@ -69,6 +70,7 @@ body {
   color: var(--text-color);
   background-color: var(--background-color);
   display: none;
+  text-align: center;
 }
 
 body.appear {
@@ -77,6 +79,27 @@ body.appear {
 
 header {
   height: var(--nav-height);
+}
+
+#thetimeofyourlife{
+  font-family: 'Noto Serif', serif;
+  line-height: 1.25;
+  margin: 0;
+  font-weight: normal;
+  font-size: 35px;
+  margin-bottom: 4%;
+}
+
+
+.default-content-wrapper p{
+ margin-bottom: 2px;
+ margin-top: 2px;
+ font-size: 16px;
+ font-family: 'Noto Serif', serif;
+}
+
+.columns-img-col{
+  margin-top: 5%;
 }
 
 h1, h2, h3,
