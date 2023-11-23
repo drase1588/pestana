@@ -1,0 +1,24 @@
+.thetimeofyourlime {
+  font-family: Noto Serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-align: center;
+  font-variation-settings: "wdth" 100, "CTGR" 46;
+}
+
+.textTime {
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.imgTime {
+  width: 304px;
+  height: 304px;
+  border-radius: 12px;
+}
