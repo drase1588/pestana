@@ -19,6 +19,34 @@
   display: block;
 }
 
+#thetimeofyourlife{
+  font-family: 'Noto Serif', serif;
+  line-height: 1.25;
+  margin: 0;
+  font-weight: normal;
+  font-size: 35px;
+  margin-bottom: 4%;
+}
+
+#mantemos-o-contacto-subscreva-a-nossa-newsletter{
+  font-family: 'Noto Serif', serif;
+  line-height: 1.25;
+  font-weight: normal;
+  font-size: 1.5em;
+  margin-bottom: 4%;
+  width: 15em;
+  display: block;
+  margin: 0 auto;
+}
+
+
+a.button {
+  background-color: transparent !important; 
+  color: #6b6868 !important; 
+}
+
+
+
 @media (min-width: 900px) {
   .columns > div {
     align-items: center;
