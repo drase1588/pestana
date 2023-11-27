@@ -1,6 +1,6 @@
 footer {
-  padding: 2rem;
-  background-color: var(--overlay-background-color);
+  padding: 5rem;
+  background-color:  #575757;
   font-size: var(--body-font-size-s);
 }
 
@@ -11,6 +11,17 @@ footer .footer {
 
 footer .footer p {
   margin: 0;
+}
+
+.table1,
+.hotelgroup,
+.vantagenspestana,
+.experiencias,
+.grupopestana,
+.contactos,
+.copyright,
+.followus{
+  color:  #fff;
 }
 
 .followus{
@@ -47,7 +58,6 @@ footer .footer p {
 .table1 div:nth-child(5) {
   margin-left: 9.5em; 
 }
-
 
 .hotelgroup{
   width: 15%;
@@ -96,7 +106,7 @@ footer .footer p {
 .line {
   width: 140%;
   height: 1px;
-  background-color: #000; 
+  background-color: #fff; 
   margin-top: 15%;
   margin-left: -20%;
 }
@@ -113,10 +123,3 @@ footer .footer p {
   margin-left: 50em; 
   font-size: 0.7em;
 }
-
-
-
-
-
-
-
