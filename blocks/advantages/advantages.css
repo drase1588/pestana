@@ -2,7 +2,7 @@
     background-color: aqua;
 }
 
-.advantages .img {
+.advantages img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
