@@ -12,3 +12,111 @@ footer .footer {
 footer .footer p {
   margin: 0;
 }
+
+.followus{
+  position:absolute;
+  margin-left: -12em;
+}
+
+.followus div:nth-child(2){
+  margin-top: 11em;
+}
+
+.icons div {
+  display: flex;
+  flex: 0 0 auto;
+  margin-left: -2.4em;
+  position: relative; 
+  top: 8.5em;
+}
+
+.icons div img {
+  position: absolute;
+  width: 20px; 
+  height: 20px; 
+}
+
+
+.table1 div {
+  display: flex;
+  margin-right: 5em;
+  flex: 0 0 auto;
+  margin-left: 2em;
+}
+
+.table1 div:nth-child(5) {
+  margin-left: 9.5em; 
+}
+
+
+.hotelgroup{
+  width: 15%;
+  height: auto;
+  text-align: left;
+  margin-left: 6%;
+  line-height: 2em;
+}
+
+.vantagenspestana{
+  width: 20%;
+  height: auto;
+  text-align: left;
+  margin-left: 26.5%;
+  line-height: 2em;
+  margin-top: -24%;
+}
+
+.experiencias{
+  width: 15%;
+  height: auto;
+  text-align: left;
+  margin-left: 52.5%;
+  line-height: 2em;
+  margin-top: -6%;
+}
+
+.grupopestana{
+  width: 30%;
+  height: auto;
+  text-align: left;
+  margin-left: 73.5%;
+  line-height: 2em;
+  margin-top: -5.5%;
+}
+
+.contactos{
+  width: 30%;
+  height: auto;
+  text-align: left;
+  margin-left: 107.5%;
+  line-height: 2em;
+  margin-top: -8.5%;
+}
+
+.line {
+  width: 140%;
+  height: 1px;
+  background-color: #000; 
+  margin-top: 15%;
+  margin-left: -20%;
+}
+
+.copyright div {
+  margin-top: 0.5em;
+  display: flex;
+  margin-right: 7.5em;
+  flex: 0 0 auto;
+  margin-left: -6.5em;
+}
+
+.copyright div:nth-child(5) {
+  margin-left: 50em; 
+  font-size: 0.7em;
+}
+
+
+
+
+
+
+
