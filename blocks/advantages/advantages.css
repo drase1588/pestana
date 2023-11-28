@@ -1,17 +1,23 @@
-.advantages {
+.advantages-wrapper {
+    margin: 20px;
+  }
+  
+  .advantages {
     display: flex;
     justify-content: space-between;
   }
-
-.advantages img {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 60px;
-    height: 60px;
+  
+  .advantages > div {
+    text-align: center;
   }
   
+  .advantages img {
+    width: 60px; 
+    height: 60px; 
+    max-width: 100%; 
+  }
   
-
+  .advantages p {
+    margin: 5px 0 0; 
+  }
   
