@@ -1,16 +1,16 @@
-.advantages{
+/* .advantages{
     background-color: aqua;
-}
+} */
 
 .advantages img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-  
     width: 60px;
     height: 60px;
   }
+  
   
 
   
