@@ -5,7 +5,8 @@
   .advantages {
     display: flex;
     justify-content: space-between;
-    background-color: brown;
+    background-color: rgb(42, 97, 165);
+    flex-wrap: nowrap;
   }
   
   .advantages > div {
@@ -13,12 +14,12 @@
   }
   
   .advantages img {
-    width: 60px; 
-    height: 60px; 
-    max-width: 100%; 
+    width: 60px;
+    height: 60px;
+    max-width: 100%;
   }
   
   .advantages p {
-    margin: 5px 0 0; 
+    margin: 5px 0 0;
   }
   
