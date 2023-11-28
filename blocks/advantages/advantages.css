@@ -1,6 +1,7 @@
-.advantages{
-    background-color: black;
-}
+.advantages {
+    display: flex;
+    justify-content: space-between;
+  }
 
 .advantages img {
     display: flex;
