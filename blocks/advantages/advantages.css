@@ -1,26 +1,45 @@
 .advantages {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: azure;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: azure;
+}
+
+.advantages > div {
+  text-align: center;
+}
+
+.advantages img {
+  width: 60px;
+  height: 60px;
+  max-width: 100%;
+  margin-right: 10px;
+}
+
+.advantages p {
+  margin: 5px 0 0;
+}
+
+.advantages-wrapper {
+  margin: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .advantages {
+    flex-direction: column;
   }
-  
+
   .advantages > div {
-    text-align: center;
+    margin-bottom: 10px;
   }
-  
-  .advantages img {
-    width: 60px;
-    height: 60px;
-    max-width: 100%;
-    margin-right: 10px; 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1140px) {
+  .advantages {
   }
-  
-  .advantages p {
-    margin: 5px 0 0;
+}
+
+@media screen and (min-width: 1141px) {
+  .advantages {
   }
-  
-  .advantages-wrapper {
-    margin: 20px;
-  }
-  
+}
