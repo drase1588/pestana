@@ -1,7 +1,6 @@
 .advantages {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: azure;
 }
@@ -14,8 +13,7 @@
   width: 60px;
   height: 60px;
   max-width: 100%;
-  /* margin-right: 10px; */
-  margin-bottom: 10px;
+  margin-right: 10px;
 }
 
 .advantages p {
