@@ -13,6 +13,7 @@
   line-height: 20px;
   letter-spacing: 0px;
   text-align: center;
+  color: #333333;
 }
 
 .advantages img {
@@ -24,6 +25,25 @@
 
 .advantages p {
   margin: 5px 0 0;
+}
+
+.default-content-wrapper p:first-child {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.default-content-wrapper p:last-child {
+  font-family: "Noto Serif", serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-align: center;
+  font-variation-settings: "wdth" 100, "CTGR" 46;
 }
 
 .advantages-wrapper {
