@@ -61,3 +61,23 @@
     margin-bottom: 10px;
   }
 }
+
+.button.primary {
+  display: inline-block;
+  width: 152px;
+  height: 44px;
+  padding: 12px 24px;
+  border-radius: 100px;
+  border: 1px solid;
+  gap: 8px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #0070de;
+}
+
+.button.primary:hover {
+  background-color: #005499;
+}
