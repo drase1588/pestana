@@ -5,33 +5,24 @@ footer {
   font-size: var(--body-font-size-s);
 }
 
-footer .footer {
+.footer {
   max-width: 1200px;
   margin: auto;
+  position: relative;
 }
 
-footer .footer p {
-  margin: 0;
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  margin-top: 2%; 
 }
-
-.table1,
-.hotelgroup,
-.vantagenspestana,
-.experiencias,
-.grupopestana,
-.contactos,
-.copyright,
-.followus {
-  color: #fff;
-}
-
-.followus {
+.followus{
   position: absolute;
 }
 
 .followus > div:nth-child(1)  div:nth-child(2){
-  display:flex;
-  margin-top: 220%;
+  margin-top: 150%;
 }
 
 .followus > div:nth-child(2) {
@@ -45,19 +36,29 @@ footer .footer p {
   height: 30px; 
 }
 
+.table1,
+.hotelgroup,
+.vantagenspestana,
+.experiencias,
+.grupopestana,
+.contactos,
+.copyright,
+.followus {
+  color: #fff;
+}
 
 .hotelgroup,
 .vantagenspestana,
 .experiencias,
 .grupopestana,
-.contactos {
+.contactos,
+.followus {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   line-height: 2em;
   white-space: nowrap;
   text-align: left;
-  
 }
 
 .hotelgroup {
@@ -87,85 +88,76 @@ footer .footer p {
   position: absolute;
 }
 
-.line {
-  width: 100%;
-  margin-top: 45%;
-  display: flex;
-  height: 1px;
-  background-color: #fff;
-  
-}
-
 .copyright div {
   margin-top: 1%;
   display: flex;
 }
 
-
-
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
-
-  .followus > div:nth-child(1)  div:nth-child(2){
-    margin-top: 160%;
+  .followus {
+    margin-top: 0%;
   }
-  
+
   .hotelgroup {
     margin-left: 29%;
   }
-  
+
   .vantagenspestana {
-    margin-left: 57%;
+    margin-left: 55%;
   }
-  
+
   .experiencias {
     margin-top: 30%;
     margin-left: 29%;
   }
-  
+
   .grupopestana {
     margin-left: 55%;
     margin-top: 30%;
   }
-  
+
   .contactos {
     margin-left: 55%;
+    margin-top: 5%;
   }
 
   .line {
-    margin-top: 55%;
+    margin-top: 50%;
   }
-  
+
   .copyright div {
     margin-top: 1%;
-    display: flex;
+    text-wrap: wrap;
   }
+
+
 }
 
 @media only screen and (min-width: 1141px) {
-  .followus > div:nth-child(1)  div:nth-child(2){
-    margin-top: 162%;
+  .followus {
+    margin-top: 0%;
   }
-  
+
   .hotelgroup {
     margin-left: 20%;
   }
-  
+
   .vantagenspestana {
     margin-left: 38%;
     position: absolute;
   }
-  
+
   .experiencias {
     margin-left: 58%;
     margin-top: 0%;
   }
-  
+
   .grupopestana {
     margin-left: 20%;
     margin-top: 30%;
     position: absolute;
   }
-  
+
   .contactos {
     margin-left: 75%;
     margin-top: 2%;
@@ -175,60 +167,63 @@ footer .footer p {
   .line {
     margin-top: 30%;
   }
-  
+
   .copyright div {
     margin-top: 1%;
     margin-left: 1%;
     display: flex;
   }
 
-  .copyright div:nth-child(5){
+  .copyright div:nth-child(5) {
     margin-left: 5%;
   }
 }
 
 @media only screen and (min-width: 1440px) {
+  .followus {
+    margin-top: 0%;
+  }
+
   .followus > div:nth-child(1)  div:nth-child(2){
-    margin-top: 86%;
+    margin-top: 85%;
   }
-  
+
   .hotelgroup {
-    margin-left: 16%;
+    margin-left: 19%;
   }
-  
+
   .vantagenspestana {
-    margin-left: 29%;
+    margin-left: 35%;
     position: absolute;
   }
-  
+
   .experiencias {
-    margin-left: 43%;
+    margin-left: 52%;
     margin-top: 0%;
   }
-  
+
   .grupopestana {
-    margin-left: 53%;
+    margin-left: 64%;
     margin-top: 0%;
     position: absolute;
   }
-  
+
   .contactos {
     margin-left: 94%;
     margin-top: 2%;
   }
 
   .line {
-    margin-top:13%;
+    margin-top: 13%;
     width: 105%;
   }
-  
+
   .copyright div {
     margin-left: 1%;
+    text-wrap: nowrap;
   }
 
-  .copyright div:nth-child(5){
-    margin-left: 10%;
+  .copyright div:nth-child(5) {
+    margin-left: 16%;
   }
 }
-
-
