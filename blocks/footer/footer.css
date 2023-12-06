@@ -1,34 +1,36 @@
+
 footer {
   padding: 15px;
   padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
   background-color: #575757;
   font-size: var(--body-font-size-s);
 }
 
-.footer {
-  max-width: 1200px;
-  margin: auto;
-  position: relative;
+.footer > div > div{
+  display:flex;
+  flex-flow: row wrap;
+  gap: 30px;
 }
 
-.line {
-  width: 100%;
-  height: 1px;
-  background-color: #fff;
-  margin-top: 2%; 
+.footer > div > div > div:not(:first-child) {
+  flex: 1 1 5%;
 }
-.followus{
-  position: absolute;
+
+.footer > div > div > div:nth-child(1){
+  flex: 1 1 5%;
+  align-self: flex-start;
 }
 
 .followus > div:nth-child(1)  div:nth-child(2){
-  margin-top: 150%;
+  display:flex;
+  margin-top: 85%;
 }
 
 .followus > div:nth-child(2) {
   display: flex;
-  margin-top: 5%;
-  gap: 15%;
+  gap: 30px;
 }
 
 .followus a img {
@@ -36,194 +38,77 @@ footer {
   height: 30px; 
 }
 
-.table1,
 .hotelgroup,
 .vantagenspestana,
 .experiencias,
 .grupopestana,
 .contactos,
-.copyright,
 .followus {
+  line-height: 2em;
+  text-align: left;
   color: #fff;
 }
 
-.hotelgroup,
-.vantagenspestana,
-.experiencias,
-.grupopestana,
-.contactos,
-.followus {
+.hotelgroup-wrapper,
+.vantagenspestana-wrapper,
+.experiencias-wrapper,
+.grupopestana-wrapper,
+.contactos-wrapper,
+.followus-wrapper {
+  margin-top: inherit !important;
+}
+
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+}
+.copyright {
+  color: #fff;
+  width: 120%;
+}
+
+.copyright > div {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  line-height: 2em;
-  white-space: nowrap;
-  text-align: left;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
-.hotelgroup {
-  margin-left: 35%;
-  position: absolute;
+.copyright > div > div:nth-child(5) {
+  display:flex !important;
+  justify-content: flex-end !important;
 }
 
-.vantagenspestana {
-  margin-left: 65%;
-}
-
-.experiencias {
-  margin-top: 30%;
-  margin-left: 35%;
-  position: absolute;
-}
-
-.grupopestana {
-  margin-left: 35%;
-  margin-top: 46%;
-  position: absolute;
-}
-
-.contactos {
-  margin-left: 65%;
-  margin-top: 2%;
-  position: absolute;
-}
-
-.copyright div {
-  margin-top: 1%;
-  display: flex;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1140px) {
-  .followus {
-    margin-top: 0%;
+@media only screen and (max-width: 1140px) {
+  .footer > div > div{
+    display:block;
+    
   }
-
-  .hotelgroup {
-    margin-left: 29%;
-  }
-
-  .vantagenspestana {
-    margin-left: 55%;
-  }
-
-  .experiencias {
-    margin-top: 30%;
-    margin-left: 29%;
-  }
-
-  .grupopestana {
-    margin-left: 55%;
-    margin-top: 30%;
-  }
-
-  .contactos {
-    margin-left: 55%;
+  
+  .followus > div:nth-child(1)  div:nth-child(2){
     margin-top: 5%;
   }
 
-  .line {
-    margin-top: 50%;
+  .copyright > div {
+    display: block;
+    text-align: left;
+    padding-top: 5%;
+  }
+  .line{
+margin-top: 5%;
   }
 
-  .copyright div {
-    margin-top: 1%;
-    text-wrap: wrap;
+  .copyright > div > div:nth-child(5) {
+    display:block !important;
   }
 
-
+  .hotelgroup-wrapper,
+.vantagenspestana-wrapper,
+.experiencias-wrapper,
+.grupopestana-wrapper,
+.contactos-wrapper,
+.followus-wrapper {
+  padding-top: 5%;
 }
-
-@media only screen and (min-width: 1141px) {
-  .followus {
-    margin-top: 0%;
-  }
-
-  .hotelgroup {
-    margin-left: 20%;
-  }
-
-  .vantagenspestana {
-    margin-left: 38%;
-    position: absolute;
-  }
-
-  .experiencias {
-    margin-left: 58%;
-    margin-top: 0%;
-  }
-
-  .grupopestana {
-    margin-left: 20%;
-    margin-top: 30%;
-    position: absolute;
-  }
-
-  .contactos {
-    margin-left: 75%;
-    margin-top: 2%;
-    position: relative;
-  }
-
-  .line {
-    margin-top: 30%;
-  }
-
-  .copyright div {
-    margin-top: 1%;
-    margin-left: 1%;
-    display: flex;
-  }
-
-  .copyright div:nth-child(5) {
-    margin-left: 5%;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .followus {
-    margin-top: 0%;
-  }
-
-  .followus > div:nth-child(1)  div:nth-child(2){
-    margin-top: 85%;
-  }
-
-  .hotelgroup {
-    margin-left: 19%;
-  }
-
-  .vantagenspestana {
-    margin-left: 35%;
-    position: absolute;
-  }
-
-  .experiencias {
-    margin-left: 52%;
-    margin-top: 0%;
-  }
-
-  .grupopestana {
-    margin-left: 64%;
-    margin-top: 0%;
-    position: absolute;
-  }
-
-  .contactos {
-    margin-left: 94%;
-    margin-top: 2%;
-  }
-
-  .line {
-    margin-top: 13%;
-    width: 105%;
-  }
-
-  .copyright div {
-    margin-left: 1%;
-    text-wrap: nowrap;
-  }
-
-  .copyright div:nth-child(5) {
-    margin-left: 16%;
-  }
 }
