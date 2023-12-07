@@ -69,9 +69,9 @@
   letter-spacing: 0px;
   text-align: left;
 }
-.button-container strong {
+/* .button-container strong {
   display: inline-block;
-}
+} */
 
 .button-container .button.primary {
   display: inline-block;
