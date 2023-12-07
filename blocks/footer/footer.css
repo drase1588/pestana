@@ -64,6 +64,22 @@ footer {
   width: 100%;
   background-color: #fff;
 }
+.copyright {
+  border-top: 1px solid #fff;
+  color: #fff;
+  width: 100%;
+}
+
+.copyright > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.copyright > div > div:last-child {
+  display:flex !important;
+  margin-left: auto;
+}
 
 @media only screen and (max-width: 1140px) {
   .footer > div > div{
@@ -74,11 +90,17 @@ footer {
   .followus > div:nth-child(1)  div:nth-child(2){
     margin-top: 5%;
   }
+
+  .copyright > div {
+    display: block;
+    text-align: left;
+    padding-top: 5%;
+  }
   .line{
 margin-top: 5%;
   }
 
-  .copyright > div > div:nth-child(5) {
+  .copyright > div > div:last-child {
     display:block !important;
   }
 
