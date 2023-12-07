@@ -653,18 +653,6 @@ async function loadFooter(footer) {
 }
 
 /**
- * Loads a block named 'footerBottom' into footer
- * @param footer footerBottom element
- * @returns {Promise}
- */
-async function loadFooterBottom(footerBottom) {
-  const footerBottomBlock = buildBlock('footerBottom', '');
-  footerBottom.append(footerBottomBlock);
-  decorateBlock(footerBottomBlock);
-  return loadBlock(footerBottomBlock);
-}
-
-/**
  * Load LCP block and/or wait for LCP in default content.
  * @param {Array} lcpBlocks Array of blocks
  */
@@ -704,7 +692,6 @@ export {
   loadBlocks,
   loadCSS,
   loadFooter,
-  loadFooterBottom,
   loadHeader,
   loadScript,
   readBlockConfig,
