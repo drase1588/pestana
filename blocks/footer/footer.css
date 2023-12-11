@@ -1,17 +1,19 @@
 
-footer {
+.footer-wrapper {
   padding: 15px;
   padding-top: 30px;
   padding-left: 100px;
   padding-right: 100px;
   background-color: #575757;
-  font-size: var(--body-font-size-s);
+  font-size: 16px;
+
 }
 
 .footer > div > div{
   display:flex;
   flex-flow: row wrap;
   gap: 30px;
+  
 }
 
 .footer > div > div > div:not(:first-child) {
@@ -34,8 +36,8 @@ footer {
 }
 
 .followus a img {
-  width: 30px; 
-  height: 30px; 
+  width: 16px; 
+  height: 16px; 
 }
 
 .hotelgroup,
@@ -58,27 +60,36 @@ footer {
   margin-top: inherit !important;
 }
 
-
-.line {
-  height: 1px;
-  width: 100%;
-  background-color: #fff;
+.hotelgroup > div > div .button{
+  all: unset !important;
 }
-.copyright {
-  border-top: 1px solid #fff;
+
+.copyright-wrapper {
   color: #fff;
   width: 100%;
+}
+
+.copyright-container{
+  border-top: 1px solid #fff;
+  padding-top: 30px;
+  margin-top: 30px;
 }
 
 .copyright > div {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  
+}
+
+.footer-wrapper .copyright-wrapper{
+  max-width: 100%;
 }
 
 .copyright > div > div:last-child {
   display:flex !important;
   margin-left: auto;
+  
 }
 
 @media only screen and (max-width: 1140px) {
@@ -104,7 +115,7 @@ margin-top: 5%;
     display:block !important;
   }
 
-  .hotelgroup-wrapper,
+.hotelgroup-wrapper,
 .vantagenspestana-wrapper,
 .experiencias-wrapper,
 .grupopestana-wrapper,
