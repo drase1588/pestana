@@ -36,6 +36,7 @@
   letter-spacing: 1px;
   text-align: center;
   color: #989898;
+  margin-bottom: 32px;
 }
 
 .default-content-wrapper p:last-child {
@@ -47,6 +48,7 @@
   text-align: center;
   font-variation-settings: "wdth" 100, "CTGR" 46;
   color: #000000;
+  margin-bottom: 1.5em;
 }
 
 .advantages-wrapper {
@@ -60,7 +62,7 @@
   }
 
   .advantages > div {
-    margin-bottom: 10px;
+    margin-top: 24px;
   }
 }
 .advantages-container .button-container a {
