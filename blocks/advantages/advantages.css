@@ -61,7 +61,7 @@
     margin-bottom: 10px;
   }
 }
-.advantages .button-container a {
+.advantages-container .button-container a {
   font-family: "Noto Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -70,7 +70,7 @@
   text-align: left;
 }
 
-.advantages .button-container .button.primary {
+.advantages-container .button-container .button.primary {
   display: inline-block;
   width: 152px;
   height: 44px;
