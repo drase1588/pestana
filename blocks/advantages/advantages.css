@@ -36,7 +36,7 @@
   letter-spacing: 1px;
   text-align: center;
   color: #989898;
-  margin-bottom: 32px;
+  margin-bottom: 13px;
 }
 
 .default-content-wrapper p:last-child {
@@ -48,7 +48,7 @@
   text-align: center;
   font-variation-settings: "wdth" 100, "CTGR" 46;
   color: #000000;
-  margin-bottom: 1.5em;
+  margin-bottom: 40px;
 }
 
 .advantages-wrapper {
@@ -88,4 +88,5 @@
   text-decoration: none;
   color: #ffffff;
   text-overflow: inherit;
+  margin-top: 50px;
 }
