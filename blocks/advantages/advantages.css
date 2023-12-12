@@ -80,7 +80,8 @@
   height: 44px;
   padding: 12px 24px;
   border-radius: 100px;
-  border: 1px solid;
+  /* border: 1px solid; */
+  border: 1px solid transparent;
   gap: 8px;
   text-align: center;
   line-height: 20px;
@@ -89,4 +90,14 @@
   color: #ffffff;
   text-overflow: inherit;
   margin-top: 50px;
+  background-color: #000000;
+  transition: background-color 0.3s ease;
+}
+.advantages-container .button-container .button.primary:hover {
+  background-color: #000000;
+  transition: background-color 0.3s ease;
+}
+
+.advantages-container .button-container .button.primary:hover {
+  background-color: #808080;
 }
