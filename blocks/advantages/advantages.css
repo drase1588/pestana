@@ -2,28 +2,30 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .advantages > div {
+  flex: 1;
   text-align: center;
   font-family: "Noto Sans", sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 20px;
-  letter-spacing: 0px;
-  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
   color: #333333;
+  padding: 0 10px;
 }
 
 .advantages img {
   width: 60px;
   height: 60px;
-  max-width: 100%;
-  margin-bottom: 10px;
+  object-fit: contain;
+  margin-bottom: 0.625rem;
 }
 
 .advantages p {
-  margin: 5px 0 0;
+  margin: 0.3125rem 0 0;
 }
 
 .default-content-wrapper p:first-child {
