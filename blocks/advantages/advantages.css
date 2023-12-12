@@ -61,7 +61,7 @@
     margin-bottom: 10px;
   }
 }
-.button-container a {
+.advantages .button-container a {
   font-family: "Noto Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -69,11 +69,8 @@
   letter-spacing: 0px;
   text-align: left;
 }
-/* .button-container strong {
-  display: inline-block;
-} */
 
-.button-container .button.primary {
+.advantages .button-container .button.primary {
   display: inline-block;
   width: 152px;
   height: 44px;
@@ -86,4 +83,5 @@
   font-size: 16px;
   text-decoration: none;
   color: #ffffff;
+  text-overflow: inherit;
 }
