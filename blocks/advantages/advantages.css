@@ -90,7 +90,12 @@
   text-overflow: inherit;
   margin-top: 50px;
 }
-.advantages-container .button-container .button.primary:hover {
+/* .advantages-container .button-container .button.primary:hover {
   background-color: #1a202c;
   color: #ffffff;
+} */
+
+a.button:hover {
+  background-color: transparent !important;
+  color: #6b6868 !important;
 }
