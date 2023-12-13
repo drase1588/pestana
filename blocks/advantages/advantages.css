@@ -65,19 +65,7 @@
     margin-top: 24px;
   }
 }
-/* .advantages-container .button-container a:hover {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: #131313;
-  text-decoration: underline;
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-} */
-/* Estado normal do link */
-.advantages-container .button-container a {
+.advantages-container .button-container a:hover {
   font-family: "Noto Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -85,14 +73,8 @@
   letter-spacing: 0px;
   text-align: left;
   color: #000000;
-  text-decoration: none;
-  transition: color 0.2s ease-in-out, font-weight 0.2s ease-in-out;
-}
-
-.advantages-container .button-container a:hover {
-  color: #d3d3d3;
-  font-weight: 400;
   text-decoration: underline;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 .advantages-container .button-container .button.primary {
