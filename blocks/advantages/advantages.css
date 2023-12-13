@@ -65,13 +65,17 @@
     margin-top: 24px;
   }
 }
-.advantages-container .button-container a {
+.advantages-container .button-container a:hover {
   font-family: "Noto Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0px;
   text-align: left;
+  background-color: #9d2e2e;
+  color: #333;
+  text-decoration: underline;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 .advantages-container .button-container .button.primary {
@@ -95,7 +99,7 @@
   color: #ffffff;
 } */
 
-a.button:hover {
+.advantages-container .button-container a:hover {
   background-color: transparent !important;
   color: #6b6868 !important;
 }
