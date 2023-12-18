@@ -18,4 +18,23 @@ export default async function decorate(block) {
   while (fragment.firstElementChild) footer.append(fragment.firstElementChild);
 
   block.append(footer);
+
+  const links = footer.getElementsByTagName('a');
+  for (let i = 0; i < links.length; i++) {
+    links[i].addEventListener('click', function(event) {
+      event.preventDefault();
+      
+      const linkDomainMatches = this.href.match(/^(https?:)?\/\/([^\/]+)/);
+
+      //Index 0 contains the entire matched substring.
+      //Index 1, if it exists, contains the matched "https:" or "http:" part (optional).
+      //Index 2 contains the matched domain.
+      if (linkDomainMatches[2] === "docs.google.com") {
+        window.location.href = this.href;
+      } else {
+        window.open(this.href, '_blank');
+      }
+    });
+  }
+  
 }
