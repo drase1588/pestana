@@ -2,28 +2,33 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .advantages > div {
+  flex: 1;
   text-align: center;
   font-family: "Noto Sans", sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 20px;
-  letter-spacing: 0px;
-  text-align: center;
-  color: #333333;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  /* color: #333333; */
+  padding: 0 10px;
 }
 
 .advantages img {
   width: 60px;
   height: 60px;
-  max-width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
+}
+
+.main img {
+  max-width: none;
 }
 
 .advantages p {
-  margin: 5px 0 0;
+  margin: 0.3125rem 0 0;
 }
 
 .default-content-wrapper p:first-child {
@@ -34,6 +39,7 @@
   letter-spacing: 1px;
   text-align: center;
   color: #989898;
+  margin-bottom: 13px;
 }
 
 .default-content-wrapper p:last-child {
@@ -45,6 +51,7 @@
   text-align: center;
   font-variation-settings: "wdth" 100, "CTGR" 46;
   color: #000000;
+  margin-bottom: 40px;
 }
 
 .advantages-wrapper {
@@ -58,22 +65,21 @@
   }
 
   .advantages > div {
-    margin-bottom: 10px;
+    margin-top: 24px;
   }
 }
-.button-container a {
+.advantages-container .button-container a:hover {
   font-family: "Noto Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0px;
   text-align: left;
+  text-decoration: underline;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
-/* .button-container strong {
-  display: inline-block;
-} */
 
-.button-container .button.primary {
+.advantages-container .button-container .button.primary {
   display: inline-block;
   width: 152px;
   height: 44px;
@@ -86,4 +92,10 @@
   font-size: 16px;
   text-decoration: none;
   color: #ffffff;
+  text-overflow: inherit;
+  margin-top: 50px;
+}
+
+.advantages a.button.primary {
+  color: #000000;
 }
