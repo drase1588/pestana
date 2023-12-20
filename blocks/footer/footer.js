@@ -19,18 +19,16 @@ export default async function decorate(block) {
 
   block.append(footer);
 
-  const links = footer.getElementsByTagName('a');
+  const footerLinks = footer.getElementsByTagName('a');
 
-  for (let i = 0; i < links.length; i++) {
-    links[i].setAttribute('target', '_blank');
+  Array.from(footerLinks).forEach(link => {
+    if (link.hostname !== window.location.hostname) {
+       link.setAttribute('target', '_blank');
+   }
+});
+  
+  
+  
 
-    links[i].addEventListener('click', function (event) {
-      const linkDomainMatches = this.href.match(/^(https?:)?\/\/([^\/]+)/);
-      if (linkDomainMatches[2] === "docs.google.com") {
-        event.preventDefault();
-        window.location.href = this.href;
-      }
-    });
-  }
 
 }
