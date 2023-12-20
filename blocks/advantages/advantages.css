@@ -4,6 +4,9 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
+  flex-direction: column;
+  width: 60px;
+  height: 60px;
 }
 
 .advantages > div {
