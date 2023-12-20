@@ -1,44 +1,33 @@
 .advantages {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
+  text-align: center;
 }
 
 .advantages > div {
-  flex: 1 1 20%;
-  text-align: center;
-  font-family: "Noto Sans", sans-serif;
-  padding: 0 10px;
+  flex-basis: 20%;
+  max-width: 20%;
 }
 
 .advantages img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 0.625rem;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
 }
 
-.advantages > div > div {
-  width: 120px;
-  height: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+.advantages div {
+  margin-top: 10px;
 }
 
-.advantages img {
-  object-fit: cover;
-}
-
-@media screen and (max-width: 767px) {
-  .advantages {
-    flex-direction: column;
+@media (max-width: 768px) {
+  .advantages > div {
+    flex-basis: 100%;
+    max-width: 100%;
   }
 
-  .advantages > div {
-    width: 100%;
-    margin-top: 24px;
+  .advantages {
+    justify-content: center;
   }
 }
