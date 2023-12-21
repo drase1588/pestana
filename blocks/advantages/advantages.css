@@ -30,6 +30,7 @@
 
 .advantages div {
   margin-top: 10px;
+  font-size: medium;
 }
 
 @media (max-width: 768px) {
