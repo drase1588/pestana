@@ -134,7 +134,7 @@ a.button.primary {
 }
 
 .highlightsdestinyfilters-wrapper .highlightsdestinyfilters {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
