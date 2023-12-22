@@ -1,0 +1,65 @@
+.searchthings-wrapper .searchthings > div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 20px;
+    color: #A4A4A4;
+}
+
+.searchthings-wrapper .searchthings > div > div:last-child{
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: medium;
+}
+
+.searchthings-wrapper .searchthings > div > div:last-child img {
+    width: 20px; 
+    height: 20px; 
+    color: #fff;
+}
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  ul > li {
+    position: relative;
+    cursor: pointer;
+  }
+
+  ul> li > ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  ul> li > ul > li {
+    padding: 10px;
+  }
+
+  ul > li:hover > ul {
+    display: block;
+  }
+
+  .
+
+
+
+
+
+
+
