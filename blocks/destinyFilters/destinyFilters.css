@@ -1,4 +1,4 @@
-.titleDestinyFilters {
+.titledestinyfilters {
   /* color: var(--Grayscale-Black, #000); */
   font-feature-settings: "clig" off, "liga" off;
 
@@ -11,7 +11,7 @@
   color: yellowgreen;
 }
 
-/* .titledestinyfilters-wrapper {
+/* .titledestinyfilters {
   font-size: 36px;
   font-weight: bold;
   text-align: center;
