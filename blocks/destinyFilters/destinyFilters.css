@@ -1,4 +1,4 @@
-.backgroundimage-wrapper {
+/* .backgroundimage-wrapper {
   position: relative;
   z-index: 1;
 }
@@ -7,12 +7,11 @@
   color: var(--Grayscale-Black, #000);
   font-feature-settings: "clig" off, "liga" off;
 
-  /* Display/Display - M */
   font-family: Noto Serif;
   font-size: 60px;
   font-style: normal;
   font-weight: 500;
-  line-height: 125%; /* 75px */
+  line-height: 125%;
   text-align: left;
 }
 
@@ -28,10 +27,9 @@
   text-align: center;
   font-feature-settings: "clig" off, "liga" off;
 
-  /* Ui/Ui - L Light */
   font-family: Noto Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
-  line-height: 125%; /* 20px */
-}
+  line-height: 125%;
+} */
