@@ -136,13 +136,7 @@ a.button.primary {
   font-style: normal;
   font-weight: 500;
   line-height: 125%; /* 75px */
-
-  position: absolute;
-  z-index: 2;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
 }
 
 .highlightsdestinyfilters-wrapper .highlightsdestinyfilters {
