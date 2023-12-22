@@ -10,7 +10,7 @@
   line-height: 125%; /* 75px */
 }
 
-.titledestinyfilters .block {
+.titledestinyfilters-wrapper {
   font-size: 36px;
   font-weight: bold;
   text-align: center;
