@@ -1,16 +1,4 @@
-/* .titledestinyfilters {
-  color: var(--Grayscale-Black, #000);
-  font-feature-settings: "clig" off, "liga" off;
-
-  font-family: Noto Serif;
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 125%; 
-  color: yellowgreen;
-} */
-
-.titledestinyfilters .body {
+.titledestinyfilters-wrapper .titledestinyfilters {
   font-size: 36px;
   font-weight: bold;
   text-align: center;
