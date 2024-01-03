@@ -1,34 +1,66 @@
-.advantages {
+.advantage-caption {
+  color: var(--Grayscale-Black, #000);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 125%;
+  margin-top: 10px;
+}
+/* .advantages {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
+  text-align: center;
+} */
+
+.advantages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+
+  color: var(--Grayscale-Black, #000);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Ui/Ui - L Light */
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 125%; /* 20px */
 }
 
 .advantages > div {
-  flex: 1;
-  text-align: center;
-  font-family: "Noto Sans", sans-serif;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.25rem;
-  /* color: #333333; */
-  padding: 0 10px;
+  flex-basis: 20%;
+  max-width: 20%;
 }
 
 .advantages img {
   width: 60px;
-  height: 60px;
-  margin-bottom: 0.625rem;
+  height: auto;
+  margin: 0 auto;
 }
 
-.main img {
-  max-width: none;
+.advantages div {
+  margin-top: 10px;
+  font-size: medium;
 }
 
-.advantages p {
-  margin: 0.3125rem 0 0;
+@media (max-width: 768px) {
+  .advantages > div {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .advantages {
+    justify-content: center;
+  }
 }
 
 .default-content-wrapper p:first-child {
@@ -56,17 +88,6 @@
 
 .advantages-wrapper {
   margin: 20px;
-}
-
-@media screen and (max-width: 767px) {
-  .advantages {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .advantages > div {
-    margin-top: 24px;
-  }
 }
 .advantages-container .button-container a:hover {
   font-family: "Noto Sans", sans-serif;

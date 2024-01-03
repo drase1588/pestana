@@ -1,0 +1,35 @@
+/* .backgroundimage-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.titledestinyfilters-wrapper .titledestinyfilters {
+  color: var(--Grayscale-Black, #000);
+  font-feature-settings: "clig" off, "liga" off;
+
+  font-family: Noto Serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  text-align: left;
+}
+
+.highlightsdestinyfilters-wrapper .highlightsdestinyfilters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 16px;
+
+  color: var(--Grayscale-Black, #000);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 125%;
+} */
