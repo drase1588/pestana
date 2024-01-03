@@ -33,8 +33,6 @@ ul {
 }
 
 .section .default-content-wrapper > ul {
-  display: flex;
-  justify-content: flex-end;
 }
 
 .section .default-content-wrapper > ul > li:first-child {
@@ -44,6 +42,21 @@ ul {
   padding-left: 25px;
   padding-right: 25px;
 }
+.section .default-content-wrapper > ul > li:nth-child(2) {
+ margin-left: 40%;
+}
+
+.section.search-container.people-container.nav-tools {
+  display: flex;
+  margin-left: 250px;
+}
+
+.section.search-container.people-container.nav-tools > div {
+  flex: 1; 
+  margin-right: 10px;
+}
+
+
 
 
 header nav[aria-expanded="true"] {

@@ -29,7 +29,6 @@
 
 .searchthings-wrapper .searchthings>div> :not(:first-child):not(:last-child) {
     border-left: 1px solid rgba(0, 0, 0, 0.1);
-    ;
     padding-left: 15px;
     padding-right: 60px;
 }

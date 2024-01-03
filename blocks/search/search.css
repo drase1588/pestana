@@ -1,0 +1,12 @@
+.section .search-wrapper{
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+.search-wrapper .search > div > div > picture > img{
+   width: 16px;
+   height: 16px;
+   margin-top: 11px;
+}

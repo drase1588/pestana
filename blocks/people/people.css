@@ -1,0 +1,12 @@
+.people-wrapper {
+    background-color: white;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+.people-wrapper .people > div > div > picture > img {
+   width: 20px;
+   height: 20px;
+   margin-top: 10px;
+}
