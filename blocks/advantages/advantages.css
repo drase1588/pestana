@@ -121,7 +121,7 @@ a.button.primary {
   color: #000000;
 }
 
-/* .backgroundimage-wrapper {
+.backgroundimage-wrapper {
   position: relative;
   z-index: 1;
 }
@@ -154,4 +154,4 @@ a.button.primary {
   font-style: normal;
   font-weight: 300;
   line-height: 125%;
-} */
+}
