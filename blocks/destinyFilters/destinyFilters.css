@@ -1,4 +1,4 @@
-/* .backgroundimage-wrapper {
+.backgroundimage-wrapper {
   position: relative;
   z-index: 1;
 }
@@ -17,7 +17,6 @@
 
 .highlightsdestinyfilters-wrapper .highlightsdestinyfilters {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
@@ -32,4 +31,4 @@
   font-style: normal;
   font-weight: 300;
   line-height: 125%;
-} */
+}
