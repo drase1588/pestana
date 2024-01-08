@@ -160,7 +160,7 @@ a.button.primary {
   color: #ca1a1a;
 }
 
-.destinyfilters-wrapper .destinyfilters div > img {
+.destinyfilters-wrapper .destinyfilters div > div > picture > img {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
