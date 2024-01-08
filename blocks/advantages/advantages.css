@@ -159,3 +159,11 @@ a.button.primary {
 .destinyfilters-wrapper .destinyfilters {
   color: #ca1a1a;
 }
+
+.destinyfilters-wrapper .destinyfilters div > img {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 16px;
+}
