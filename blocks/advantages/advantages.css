@@ -156,7 +156,7 @@ a.button.primary {
   line-height: 125%;
 } */
 
-/* .destinyfilters-wrapper .destinyfilters {
+.destinyfilters-wrapper .destinyfilters {
   color: #000000;
   display: flex;
   align-items: center;
@@ -168,20 +168,3 @@ a.button.primary {
 /* .destinyfilters-wrapper .destinyfilters div > div > picture > img {
 
 } */
-
-/* .destinyfilters-wrapper .destinyfilters div > div > div > div {
-
-} */
-
-.destinyfilters-wrapper {
-  text-align: center;
-}
-
-.destinyfilters-wrapper .destinyfilters > div:first-child {
-  color: #ae1616;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  text-align: center;
-  gap: 16px;
-}
