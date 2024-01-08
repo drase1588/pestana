@@ -178,7 +178,10 @@ a.button.primary {
 }
 
 .destinyfilters-wrapper .destinyfilters > div:first-child {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 20px;
+  color: #ae1616;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 16px;
 }
