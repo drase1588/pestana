@@ -33,6 +33,6 @@
   line-height: 125%;
 } */
 
-.destinyfilters-wrapper {
+.destinyfilters-wrapper > li > a {
   color: #ca1a1a;
 }
