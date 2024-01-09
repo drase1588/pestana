@@ -1,4 +1,25 @@
-.searchthings-wrapper .searchthings>div {
+.banner-wrapper .banner > div > div > picture > img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(0.9);
+}
+
+.banner-wrapper .banner > div:nth-child(2){
+    position: relative;
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 470px;
+    font-family: Noto Serif,serif;
+    color: #fff;
+}
+
+
+.banner-wrapper .banner > div:nth-child(3) {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -11,7 +32,7 @@
     color: #A4A4A4;
 }
 
-.searchthings-wrapper .searchthings>div>div:last-child {
+.banner-wrapper .banner>div:nth-child(3)>div:last-child {
     background-color: black;
     color: #ffffff;
     padding: 5px;
@@ -21,13 +42,13 @@
     font-size: medium;
 }
 
-.searchthings-wrapper .searchthings>div>div:last-child img {
+.banner-wrapper .banner>div:nth-child(3)>div:last-child img {
     width: 15px;
     height: 15px;
     filter: brightness(0) invert(1);
 }
 
-.searchthings-wrapper .searchthings>div> :not(:first-child):not(:last-child) {
+.banner-wrapper .banner>div> :not(:first-child):not(:last-child) {
     border-left: 1px solid rgba(0, 0, 0, 0.1);
     padding-left: 15px;
     padding-right: 60px;
