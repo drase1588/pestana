@@ -158,7 +158,7 @@ a.button.primary {
 
 /* --destinyfilters-- */
 
-.destinyfilters-wrapper .destinyfilters > div > div > picture > img {
+/* .destinyfilters-wrapper .destinyfilters > div > div > picture > img {
 }
 
 .destinyfilters-wrapper .destinyfilters > div:nth-child(2) {
@@ -179,29 +179,28 @@ a.button.primary {
 }
 .destinyfilters-wrapper .destinyfilters > div:nth-child(4) {
   color: #1fb8ab;
-}
+} */
 
-.destinyfilters-wrapper {
+.destinyfilters-wrapper .destinyfilters > div {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 16px;
 }
 
-.destinyfilters-wrapper .destinyfilters {
-  width: 100%;
+.destinyfilters-wrapper .destinyfilters > div:first-child {
+  margin-bottom: 32px;
+}
+
+.destinyfilters-wrapper .destinyfilters > div > div:last-child {
   text-align: center;
+  margin-top: 8px;
 }
 
 .destinyfilters-wrapper .destinyfilters img {
   max-width: 100%;
   height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-.destinyfilters-wrapper .destinyfilters figcaption {
-  text-align: center;
 }
 
 /* .destinyfilters-wrapper .destinyfilters {
