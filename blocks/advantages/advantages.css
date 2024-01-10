@@ -157,8 +157,47 @@ a.button.primary {
 } */
 
 /* --destinyfilters-- */
+.destinyfilters-wrapper .destinyfilters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.destinyfilters-wrapper .destinyfilters > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
 
 .destinyfilters-wrapper .destinyfilters > div > div > picture > img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+.destinyfilters-wrapper .destinyfilters > div:nth-child(2) {
+  color: #0ece15;
+}
+
+.destinyfilters-wrapper .destinyfilters > div:nth-child(3) {
+  color: #9c1fb8;
+}
+
+.destinyfilters-wrapper
+  .destinyfilters
+  > div:nth-child(3)
+  > div:last-child
+  img {
+  width: 20px;
+  height: 20px;
+  color: #be2727;
+}
+
+/* .destinyfilters-wrapper .destinyfilters > div > div > picture > img {
 }
 
 .destinyfilters-wrapper .destinyfilters > div:nth-child(2) {
@@ -184,7 +223,7 @@ a.button.primary {
   img {
   width: 20px;
   height: 20px;
-}
+} */
 
 /* .destinyfilters-wrapper .destinyfilters {
   color: #000000;
