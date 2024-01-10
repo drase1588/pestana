@@ -181,26 +181,28 @@ a.button.primary {
   color: #1fb8ab;
 } */
 
-.destinyfilters-wrapper .destinyfilters > div {
+.destinyfilters-wrapper {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 16px;
-  margin-bottom: 16px;
+  justify-content: center; /* This will center the items on the main axis */
+  align-items: center; /* This will center the items on the cross axis, if needed */
+  flex-wrap: wrap; /* This allows items to wrap into the next line if needed */
 }
 
-.destinyfilters-wrapper .destinyfilters > div:first-child {
-  margin-bottom: 32px;
+.destinyfilters {
+  flex-direction: column; /* This will stack the children divs on top of each other */
+  margin: 0 auto; /* This will center the .destinyfilters block itself */
 }
 
-.destinyfilters-wrapper .destinyfilters > div > div:last-child {
-  text-align: center;
-  margin-top: 8px;
+.destinyfilters > div {
+  margin-bottom: 20px; /* Or any space you want between the items */
+  text-align: center; /* This will center the text inside each div */
 }
 
-.destinyfilters-wrapper .destinyfilters img {
-  max-width: 100%;
-  height: auto;
+/* Now, target the image containers within each div to make sure they are also centered */
+.destinyfilters > div > .image-container {
+  display: flex;
+  justify-content: center; /* Center the images */
+  align-items: center;
 }
 
 /* .destinyfilters-wrapper .destinyfilters {
