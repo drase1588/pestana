@@ -121,12 +121,7 @@ a.button.primary {
   color: #000000;
 }
 
-/* .backgroundimage-wrapper {
-  position: relative;
-  z-index: 1;
-}
-
-.titledestinyfilters-wrapper .titledestinyfilters {
+/* .titledestinyfilters-wrapper .titledestinyfilters {
   color: var(--Grayscale-Black, #000);
   font-feature-settings: "clig" off, "liga" off;
 
@@ -155,15 +150,38 @@ a.button.primary {
   font-weight: 300;
   line-height: 125%;
 } */
-
 /* --destinyfilters-- */
 
-/* .destinyfilters-wrapper .destinyfilters > div > div > picture > img {
+.destinyfilters-wrapper
+  .destinyfilters
+  > div:first-child
+  > div
+  > picture
+  > img {
+  background-color: #9c1fb8;
 }
 
-.destinyfilters-wrapper .destinyfilters > div:nth-child(2) {
-  color: #000000;
-  display: flex;
+.destinyfilters-wrapper
+  .destinyfilters
+  > div:not(:first-child)
+  > div
+  > picture
+  > img {
+  background-color: #1fb8ae;
+}
+
+.destinyfilters-wrapper .destinyfilters > div > div {
+  background-color: #4c8523;
+}
+
+.destinyfilters-wrapper .destinyfilters > div:nth-child(2) > div {
+  background-color: #b8761f;
+}
+
+/* 
+.destinyfilters-wrapper .destinyfilters > div {
+  color: #0ece15;
+  display: inline-block;
 }
 
 .destinyfilters-wrapper
@@ -171,39 +189,10 @@ a.button.primary {
   > div:nth-child(3)
   > div:last-child
   img {
-  color: #be2727;
+  width: 20px;
+  height: 20px;
 }
-
-.destinyfilters-wrapper .destinyfilters > div:nth-child(3) {
-  color: #9c1fb8;
-}
-.destinyfilters-wrapper .destinyfilters > div:nth-child(4) {
-  color: #1fb8ab;
-} */
-
-.destinyfilters-wrapper .destinyfilters > div {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 16px;
-  margin-bottom: 16px;
-}
-
-.destinyfilters-wrapper .destinyfilters > div:first-child {
-  margin-bottom: 32px;
-}
-
-.destinyfilters-wrapper .destinyfilters > div > div:last-child {
-  text-align: center;
-  margin-top: 8px;
-}
-
-.destinyfilters-wrapper .destinyfilters img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* .destinyfilters-wrapper .destinyfilters {
+ .destinyfilters-wrapper .destinyfilters {
   color: #000000;
   display: flex;
   align-items: center;
