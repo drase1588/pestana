@@ -162,9 +162,9 @@ a.button.primary {
   background-color: #9c1fb8;
 }
 
-.destinyfilters-wrapper .destinyfilters > div:nth-child(2) {
+.destinyfilters-wrapper .destinyfilters > div {
   color: #0ece15;
-  display: flex;
+  display: inline-block;
 }
 
 .destinyfilters-wrapper
