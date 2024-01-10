@@ -152,7 +152,12 @@ a.button.primary {
 } */
 /* --destinyfilters-- */
 
-.destinyfilters > div > div > picture > img {
+.destinyfilters-wrapper
+  .destinyfilters
+  > div:first-child
+  > div
+  > picture
+  > img {
   background-color: #9c1fb8;
 }
 
