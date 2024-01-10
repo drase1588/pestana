@@ -171,7 +171,10 @@ a.button.primary {
   background-color: #1fb8ae;
 }
 
-.destinyfilters-wrapper .destinyfilters > div:not(:first-child) > div > p > p {
+.destinyfilters-wrapper
+  .destinyfilters
+  > div:not(:first-child)
+  > div:nth-child(2) {
   background-color: #1fb8ae;
 }
 
