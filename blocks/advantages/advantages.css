@@ -162,6 +162,16 @@ a.button.primary {
   background-color: #9c1fb8;
 }
 
+.destinyfilters-wrapper
+  .destinyfilters
+  > div
+  > div
+  > picture
+  > img
+  > div:nth-child(3) {
+  background-color: #cf6c1a;
+}
+
 .destinyfilters-wrapper .destinyfilters > div {
   color: #0ece15;
   display: inline-block;
@@ -175,9 +185,6 @@ a.button.primary {
   color: #be2727;
 }
 
-.destinyfilters-wrapper .destinyfilters > div:nth-child(3) {
-  color: #9c1fb8;
-}
 .destinyfilters-wrapper
   .destinyfilters
   > div:nth-child(3)
