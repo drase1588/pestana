@@ -177,6 +177,9 @@ a.button.primary {
 .destinyfilters-wrapper .destinyfilters > div:nth-child(3) {
   color: #9c1fb8;
 }
+.destinyfilters-wrapper .destinyfilters > div:nth-child(4) {
+  color: #1fb8ab;
+}
 
 /* .destinyfilters-wrapper .destinyfilters {
   color: #000000;
