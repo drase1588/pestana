@@ -165,6 +165,8 @@ a.button.primary {
   gap: 16px;
 }
 
-/* .destinyfilters-wrapper .destinyfilters div > div > picture > img {
-
-} */
+.destinyfilters-wrapper .destinyfilters > div > div > picture > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
