@@ -157,37 +157,9 @@ a.button.primary {
 } */
 
 /* --destinyfilters-- */
-.destinyfilters-wrapper {
-  position: relative;
-  text-align: center;
-}
 
-.destinyfilters-wrapper .destinyfilters {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 10px;
-}
-
-.destinyfilters-wrapper .destinyfilters > div {
-}
-
-.destinyfilters-wrapper .destinyfilters img {
-  width: auto;
-  height: auto;
-}
-
-.destinyfilters-wrapper .destinyfilters > div:nth-child(2) {
-  color: #0ece15;
-}
-
-.destinyfilters-wrapper .destinyfilters > div:nth-child(3) {
-  color: #9c1fb8;
-}
-
-/* .destinyfilters-wrapper .destinyfilters > div > div > picture > img {
+.destinyfilters-wrapper .destinyfilters > div > div > picture > img {
+  background-color: #9c1fb8;
 }
 
 .destinyfilters-wrapper .destinyfilters > div:nth-child(2) {
@@ -213,13 +185,12 @@ a.button.primary {
   img {
   width: 20px;
   height: 20px;
-} */
-
-/* .destinyfilters-wrapper .destinyfilters {
+}
+*/ .destinyfilters-wrapper .destinyfilters {
   color: #000000;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
   gap: 16px;
-} */
+}
