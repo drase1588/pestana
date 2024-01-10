@@ -170,13 +170,8 @@ a.button.primary {
   background-color: #1fb8ae;
 }
 
-.destinyfilters-wrapper
-  .destinyfilters
-  > div:not(:first-child)
-  > div
-  > picture
-  > img {
-  background-color: #1fb8ae;
+.destinyfilters-wrapper .destinyfilters > div:last-child {
+  background-color: #4c8523;
 }
 
 .destinyfilters-wrapper .destinyfilters > div:nth-child(2) > div {
