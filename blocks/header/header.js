@@ -146,3 +146,46 @@ export default async function decorate(block) {
   navWrapper.append(nav);
   block.append(navWrapper);
 }
+
+window.onscroll = function() {
+  const header = document.getElementsByClassName('nav-wrapper')[0];
+  const ulLi = document.querySelectorAll('.nav-wrapper .section .default-content-wrapper ul li'); 
+  const peopleBackground = document.querySelector('.people-wrapper');
+  const peopleImage = document.querySelector('.people-wrapper .people > div > div > picture > img');
+  const searchBackground = document.querySelector('.section .search-wrapper');
+  const searchImage = document.querySelector('.search-wrapper .search > div > div > picture > img');
+  const headerImage = document.getElementsByTagName('img')[0]; 
+
+  if (isWindowScrolled()) {
+    header.style.background = 'white';
+    ulLi.forEach(li => {
+      li.style.color = 'black';
+      li.style.borderColor = 'black'
+    });
+    headerImage.style.filter = 'invert(100%)'; 
+    peopleImage.style.filter = 'invert(100%)';
+    peopleBackground.style.background = 'black';
+    searchImage.style.filter = 'invert(0%)';
+    searchBackground.style.background = 'black';
+  } else {
+    header.style.background = 'linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0))';
+    ulLi.forEach(li => {
+      li.style.color = 'white';
+      li.style.borderColor = 'white';
+    });
+    headerImage.style.filter = 'invert(0%)'; 
+    peopleImage.style.filter = 'invert(0%)';
+    peopleBackground.style.background = 'white';
+    searchBackground.style.backgroundColor = 'transparent';
+  }
+};
+
+function isWindowScrolled() {
+  return window.scrollY > 0;
+}
+
+
+
+
+
+

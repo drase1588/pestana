@@ -1,11 +1,11 @@
 /* header and nav layout */
 header .nav-wrapper {
-  width: 100%; 
-  z-index: 2;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
-  display: flex;
-  justify-content: center;
-  position: fixed;
+    width: 100%; 
+    z-index: 2;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    display: flex;
+    justify-content: center;
+    position: fixed;
 }
 
 .image-wrapper .image img {
@@ -29,7 +29,7 @@ ul {
 }
 
 .default-content-wrapper > ul > li {
-  color: #fff;
+  color: #ffffff;
 }
 
 .section .default-content-wrapper > ul > li:first-child {
