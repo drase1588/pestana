@@ -164,7 +164,7 @@ a.button.primary {
   position: absolute;
   left: 0;
   right: 0px;
-  z-index: -2;
+  z-index: -1;
 }
 /* img´s */
 .destinyfilters-wrapper
@@ -174,11 +174,15 @@ a.button.primary {
   > picture
   > img {
   background-color: #1fb8ae;
+  justify-content: center;
+  align-items: center;
 }
 
 .destinyfilters-wrapper .destinyfilters > div > div {
   /* background-color: #4c8523; */
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .destinyfilters-wrapper .destinyfilters > div:nth-child(2) > div {
