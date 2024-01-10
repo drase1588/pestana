@@ -165,8 +165,18 @@ a.button.primary {
   .destinyfilters
   > div:not(:first-child)
   > div
+  > p
   > picture
   > img {
+  background-color: #1fb8ae;
+}
+
+.destinyfilters-wrapper
+  .destinyfilters
+  > div:not(:first-child)
+  > div
+  > picture
+  > {
   background-color: #1fb8ae;
 }
 
