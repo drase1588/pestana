@@ -152,15 +152,21 @@ a.button.primary {
 } */
 /* --destinyfilters-- */
 
+/* map */
 .destinyfilters-wrapper
   .destinyfilters
   > div:first-child
   > div
   > picture
   > img {
-  background-color: #9c1fb8;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  right: 0px;
+  z-index: -2;
 }
-
+/* img´s */
 .destinyfilters-wrapper
   .destinyfilters
   > div:not(:first-child)
@@ -171,7 +177,8 @@ a.button.primary {
 }
 
 .destinyfilters-wrapper .destinyfilters > div > div {
-  background-color: #4c8523;
+  /* background-color: #4c8523; */
+  display: flex;
 }
 
 .destinyfilters-wrapper .destinyfilters > div:nth-child(2) > div {
