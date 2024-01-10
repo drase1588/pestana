@@ -165,14 +165,25 @@ a.button.primary {
   color: #000000;
 }
 
-.destinyfilters-wrapper .destinyfilters > div:nth-child(3) {
+.destinyfilters-wrapper
+  .destinyfilters
+  > div:nth-child(3)
+  > div:last-child
+  img {
+  color: #be2727;
+  width: 15px;
+  height: 15px;
+  filter: brightness(0) invert(1);
+}
+
+/* .destinyfilters-wrapper .destinyfilters > div:nth-child(3) {
   color: #be2727;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
   gap: 16px;
-}
+} */
 
 /* .destinyfilters-wrapper .destinyfilters {
   color: #000000;
