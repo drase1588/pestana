@@ -163,23 +163,20 @@ a.button.primary {
 
 .destinyfilters-wrapper
   .destinyfilters
+  > div:not(:first-child)
+  > div
+  > picture
+  > img {
+  background-color: #1fb8ae;
+}
+
+.destinyfilters-wrapper
+  .destinyfilters
   > div:nth-child(2)
   > div
   > picture
   > img {
   background-color: #b8761f;
-}
-
-.destinyfilters-wrapper
-  .destinyfilters
-  > div
-  > :not(:first-child)
-  > div
-  > picture
-  > img {
-  border-left: 1px solid rgba(0, 0, 0, 0.1);
-  padding-left: 15px;
-  padding-right: 60px;
 }
 
 /* 
