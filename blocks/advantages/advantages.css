@@ -189,6 +189,13 @@ a.button.primary {
   background-color: #b8761f;
 }
 
+.destinyfilters-wrapper .destinyfilters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 /* 
 .destinyfilters-wrapper .destinyfilters > div {
   color: #0ece15;
