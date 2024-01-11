@@ -153,7 +153,7 @@ a.button.primary {
 /* --destinyfilters-- */
 
 /* map */
-.destinyfilters-wrapper
+/* .destinyfilters-wrapper
   .destinyfilters
   > div:first-child
   > div
@@ -165,7 +165,7 @@ a.button.primary {
   left: 0;
   right: 5%;
   z-index: -1;
-}
+} */
 .destinyfilters-wrapper .destinyfilters {
   transform: translateX(-5%);
 }
