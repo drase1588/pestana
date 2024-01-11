@@ -152,7 +152,28 @@ a.button.primary {
 } */
 /* --destinyfilters-- */
 
-/* map */
+.destinyfilters-wrapper .destinyfilters > div:not(:first-child) > div {
+  background-color: #1fb8ae;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.destinyfilters-wrapper .destinyfilters > div:not(:first-child) > div::before {
+  content: "Comece aqui a sua viagem";
+  display: block;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: #fff;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  z-index: 1;
+}
+
 .destinyfilters-wrapper
   .destinyfilters
   > div:first-child
@@ -166,28 +187,22 @@ a.button.primary {
   right: 0px;
   z-index: -1;
 }
-/* img´s */
-.destinyfilters-wrapper
-  .destinyfilters
-  > div:not(:first-child)
-  > div
-  > picture
-  > img {
-  background-color: #1fb8ae;
+
+.destinyfilters-wrapper .destinyfilters {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-/* .destinyfilters-wrapper .destinyfilters > div > div {
-  background-color: #4c8523;
+.destinyfilters-wrapper .destinyfilters:not(:first-child) {
   display: flex;
   justify-content: center;
   align-items: center;
-} */
-
-.destinyfilters-wrapper .destinyfilters > div:nth-child(2) > div {
-  background-color: #b8761f;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #2c1dae;
 }
 
 /* .destinyfilters-wrapper .destinyfilters {
