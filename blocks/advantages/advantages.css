@@ -166,13 +166,16 @@ a.button.primary {
   right: 0px;
   z-index: -1;
 }
-
-.destinyfilters-wrapper .destinyfilters > div:not(:first-child) > div::before {
-  background-color: brown;
+.destinyfilters-wrapper .destinyfilters > div > div {
+  display: inline;
 }
 
+/* .destinyfilters-wrapper .destinyfilters > div:not(:first-child) > div::before {
+  background-color: brown;
+} */
+
 /* img´s */
-.destinyfilters-wrapper
+/* .destinyfilters-wrapper
   .destinyfilters
   > div:not(:first-child)
   > div
@@ -182,7 +185,7 @@ a.button.primary {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 /* .destinyfilters-wrapper .destinyfilters > div > div {
   background-color: #4c8523;
