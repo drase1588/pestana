@@ -151,52 +151,9 @@ a.button.primary {
   line-height: 125%;
 } */
 /* --destinyfilters-- */
-.destinyfilters-wrapper
-  .destinyfilters
-  > div:first-child
-  > div
-  > picture
-  > img {
-  width: 100%;
-  height: auto;
-  position: absolute;
-  left: 0;
-  right: 0;
-  z-index: -1;
-}
-
-.destinyfilters-wrapper .destinyfilters > div > div {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 10px;
-}
-
-.destinyfilters-wrapper .destinyfilters > div:nth-child(3) > div {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  color: white;
-  font-weight: bold;
-}
-
-/* Estilizar cada botão ou área clicável */
-.destinyfilters-wrapper .destinyfilters > div:nth-child(4) > div {
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.destinyfilters-wrapper .destinyfilters > div:nth-child(4) > div:hover {
-  background-color: #f0ad4e;
-}
-
-@media (max-width: 768px) {
-  .destinyfilters-wrapper .destinyfilters > div > div {
-    display: block;
-    margin-right: 0;
-  }
-}
 
 /* map */
-/* .destinyfilters-wrapper
+.destinyfilters-wrapper
   .destinyfilters
   > div:first-child
   > div
@@ -211,14 +168,14 @@ a.button.primary {
 }
 .destinyfilters-wrapper .destinyfilters > div > div {
   display: inline;
-} */
+}
 
-/* .destinyfilters-wrapper .destinyfilters > div:not(:first-child) > div::before {
+.destinyfilters-wrapper .destinyfilters > div:not(:first-child) > div::before {
   background-color: brown;
-} */
+}
 
 /* img´s */
-/* .destinyfilters-wrapper
+.destinyfilters-wrapper
   .destinyfilters
   > div:not(:first-child)
   > div
@@ -228,7 +185,7 @@ a.button.primary {
   display: flex;
   justify-content: center;
   align-items: center;
-} */
+}
 
 /* .destinyfilters-wrapper .destinyfilters > div > div {
   background-color: #4c8523;
