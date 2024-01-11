@@ -168,6 +168,7 @@ a.button.primary {
 }
 .destinyfilters-wrapper .destinyfilters > div > div {
   display: inline;
+  background-color: tomato;
 }
 
 .destinyfilters-wrapper .destinyfilters > div:not(:first-child) > div::before {
@@ -193,6 +194,6 @@ a.button.primary {
   align-items: center;
 } */
 
-.destinyfilters-wrapper .destinyfilters > div:nth-child(2) > div {
+/* .destinyfilters-wrapper .destinyfilters > div:nth-child(2) > div {
   background-color: #b8761f;
-}
+} */
