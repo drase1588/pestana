@@ -140,9 +140,6 @@ a.button.primary {
 }
 .destinyfilters-wrapper .destinyfilters {
   display: flex;
-}
-
-.destinyfilters-wrapper .destinyfilters > div {
   background-color: yellow;
 }
 
