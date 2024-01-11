@@ -142,6 +142,10 @@ a.button.primary {
   display: flex;
 }
 
+.destinyfilters-wrapper .destinyfilters > div {
+  background-color: yellow;
+}
+
 .destinyfilters-wrapper .destinyfilters > div:not(:first-child) > div::before {
   background-color: brown;
 }
