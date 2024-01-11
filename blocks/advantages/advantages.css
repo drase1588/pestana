@@ -182,7 +182,6 @@ a.button.primary {
   > picture
   > img {
   background-color: #1fb8ae;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -197,42 +196,3 @@ a.button.primary {
 .destinyfilters-wrapper .destinyfilters > div:nth-child(2) > div {
   background-color: #b8761f;
 }
-
-/* .destinyfilters-wrapper .destinyfilters {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.destinyfilters-wrapper .destinyfilters:not(:first-child) {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  background-color: #2c1dae;
-} */
-
-/* 
-.destinyfilters-wrapper .destinyfilters > div {
-  color: #0ece15;
-  display: inline-block;
-}
-
-.destinyfilters-wrapper
-  .destinyfilters
-  > div:nth-child(3)
-  > div:last-child
-  img {
-  width: 20px;
-  height: 20px;
-}
- .destinyfilters-wrapper .destinyfilters {
-  color: #000000;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  text-align: center;
-  gap: 16px;
-} */
