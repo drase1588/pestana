@@ -160,7 +160,6 @@ a.button.primary {
 }
 
 .destinyfilters-wrapper .destinyfilters > div:not(:first-child) > div::before {
-  content: "Comece aqui a sua viagem";
   display: block;
   position: absolute;
   top: -30px;
