@@ -178,15 +178,23 @@ a.button.primary {
   align-items: center;
 }
 
-.destinyfilters-wrapper .destinyfilters > div > div {
-  /* background-color: #4c8523; */
+/* .destinyfilters-wrapper .destinyfilters > div > div {
+  background-color: #4c8523;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .destinyfilters-wrapper .destinyfilters > div:nth-child(2) > div {
   background-color: #b8761f;
+}
+
+.destinyfilters-wrapper .destinyfilters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 /* 
