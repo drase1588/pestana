@@ -166,7 +166,7 @@ a.button.primary {
   right: 5%;
   z-index: -1;
 }
-.destinyfilters-wrapper .destinyfilters > div {
+.destinyfilters-wrapper .destinyfilters > div > div > div {
   display: inline;
   background-color: tomato;
 }
