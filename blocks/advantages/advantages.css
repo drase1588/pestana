@@ -166,7 +166,22 @@ a.button.primary {
   right: 5%;
   z-index: -1;
 }
-.destinyfilters-wrapper .destinyfilters > div > div > div {
+.destinyfilters-wrapper .destinyfilters {
+  transform: translateX(-5%);
+}
+.destinyfilters-wrapper
+  .destinyfilters
+  > div:first-child
+  > div
+  > picture
+  > img {
+  position: absolute;
+  left: -5%;
+  width: 105%;
+  z-index: -1;
+}
+
+.destinyfilters-wrapper .destinyfilters > div > div {
   display: inline;
   background-color: tomato;
 }
