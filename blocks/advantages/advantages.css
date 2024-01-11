@@ -139,12 +139,7 @@ a.button.primary {
   z-index: -1;
 }
 .destinyfilters-wrapper .destinyfilters {
-  transform: translateX(-5%);
-}
-
-.destinyfilters-wrapper .destinyfilters > div > div {
-  display: inline;
-  background-color: tomato;
+  display: flex;
 }
 
 .destinyfilters-wrapper .destinyfilters > div:not(:first-child) > div::before {
