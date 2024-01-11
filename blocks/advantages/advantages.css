@@ -196,6 +196,14 @@ a.button.primary {
   flex-wrap: wrap;
   gap: 20px;
 }
+.destinyfilters-wrapper .destinyfilters:not(:first-child) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #1fb8ae;
+}
 
 /* 
 .destinyfilters-wrapper .destinyfilters > div {
