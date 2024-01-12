@@ -136,7 +136,7 @@ a.button.primary {
   z-index: -1;
 }
 
-.destinyfilters-wrapper .destinyfilters > div:first-child {
+.destinyfilters-wrapper .destinyfilters > div > div:first-child {
   display: flex;
   background-color: yellow;
 }
