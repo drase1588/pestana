@@ -136,9 +136,9 @@ a.button.primary {
   z-index: -1;
 }
 
-.destinyfilters-wrapper .destinyfilters {
+.destinyfilters-wrapper .destinyfilters > div:first-child {
   display: flex;
-  /* background-color: yellow; */
+  background-color: yellow;
 }
 
 .destinyfilters-wrapper .destinyfilters > div:first-child {
