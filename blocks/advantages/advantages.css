@@ -140,11 +140,21 @@ a.button.primary {
 
 .destinyfilters-wrapper .destinyfilters {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
   position: relative;
   width: 100%;
-  padding-top: 50px;
-  box-sizing: border-box;
+  margin-top: 50px;
+  z-index: 1;
+}
+
+.destinyfilters-text {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
 }
 
 .destinyfilters-wrapper .destinyfilters > div:not(:first-child) {
