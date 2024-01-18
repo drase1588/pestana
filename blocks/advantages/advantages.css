@@ -174,45 +174,40 @@ a.button.primary {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  position: relative;
-  width: 100%;
+  align-items: flex-end;
   flex-wrap: wrap;
-}
-
-.destinyfilters-wrapper .destinyfilters > div:first-child {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-}
-
-.destinyfilters-wrapper .destinyfilters > div:first-child img {
-  width: 100%;
-  height: auto;
-}
-
-.destinyfilters-wrapper .destinyfilters > div:not(:first-child) {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: relative;
-  margin: 10px;
+  width: 100%;
+  margin-top: 20px;
 }
 
 .destinyfilters-wrapper
   .destinyfilters
   > div:not(:first-child)
   > div:first-child {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.destinyfilters-wrapper .destinyfilters > div:not(:first-child) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.destinyfilters-wrapper
+  .destinyfilters
+  > div:not(:first-child)
+  > div:nth-child(2) {
   position: absolute;
-  bottom: 10%;
+  bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
   padding: 5px;
   border-radius: 5px;
-  z-index: 2;
 }
 
 .destinyfilters-wrapper
@@ -220,12 +215,7 @@ a.button.primary {
   > div:not(:first-child)
   > div:nth-child(2)
   img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 50px;
-}
-
-.destinyfilters-wrapper .destinyfilters {
-  align-items: flex-start;
-  align-content: flex-start;
+  width: auto;
+  height: 120px;
+  margin-bottom: 20px;
 }
