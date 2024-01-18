@@ -166,54 +166,60 @@ a.button.primary {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  /* padding-top: 100px; */
+}
+
+.destinyfilters-wrapper .destinyfilters {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
   width: 100%;
+  margin-top: 50px;
+}
+
+.destinyfilters-wrapper .destinyfilters > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
   position: relative;
 }
 
-.destinyfilters-texts {
-  width: 100%;
+.destinyfilters-wrapper .destinyfilters > div > div:first-child {
+  order: -1;
   text-align: center;
-  margin-bottom: 20px;
 }
 
-.destinyfilters-background {
-  position: absolute;
+.destinyfilters-wrapper
+  .destinyfilters
+  > div:not(:first-child)
+  > div:first-child {
+  margin-bottom: 10px;
+  order: -1;
+  text-align: center;
+}
+
+.destinyfilters-wrapper .destinyfilters > div:first-child {
   width: 100%;
-  height: auto;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
 }
 
-.destinyfilters-images {
-  display: flex;
+.destinyfilters-wrapper .destinyfilters > div:first-child img {
+  width: 100%;
+  height: auto;
+}
+
+.destinyfilters-wrapper .destinyfilters > div:not(:second-child) {
   flex-direction: row;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
-  padding-top: 20px;
-}
-
-.destinyfilters-image {
   position: relative;
-  margin-bottom: 30px;
-}
-
-.destinyfilters-caption {
-  position: absolute;
-  bottom: -20px;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  padding: 5px;
-  border-radius: 5px;
-  z-index: 2;
-}
-
-.destinyfilters-image img {
-  width: 150px;
-  height: auto;
-  border-radius: 5px;
+  width: 100%;
+  margin-top: 50px;
 }
