@@ -171,54 +171,40 @@ a.button.primary {
 
 .destinyfilters {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: nowrap;
   gap: 20px;
   margin-top: 20px;
 }
 
-.destinyfilters > div {
-  flex: 0 0 auto;
-  position: relative;
+.top-texts {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.top-texts > div {
   text-align: center;
+  padding: 5px 10px;
 }
 
-.destinyfilters > div > div {
-  margin-top: 10px;
+.destinyfilters > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 
-.destinyfilters > div > div:first-child img {
+.destinyfilters > div > img {
   width: auto;
   height: auto;
   z-index: 1;
 }
 
-.destinyfilters > div > div:last-child {
-  position: absolute;
-  bottom: -30px;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-  z-index: 2;
-}
-
-.header-texts {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  position: absolute;
-  top: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 2;
-}
-
-.header-texts > div {
-  background-color: #fff;
-  padding: 5px 10px;
-  border-radius: 5px;
+.destinyfilters > div > span {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
 }
