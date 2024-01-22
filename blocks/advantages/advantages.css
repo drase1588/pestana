@@ -167,59 +167,59 @@ a.button.primary {
   flex-direction: column;
   align-items: center;
   position: relative;
-  /* padding-top: 100px; */
-}
-
-.destinyfilters-wrapper .destinyfilters {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  position: relative;
   width: 100%;
   margin-top: 50px;
 }
 
-.destinyfilters-wrapper .destinyfilters > div {
+.destinyfilters-text {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 10px;
   position: relative;
-}
-
-.destinyfilters-wrapper .destinyfilters > div > div:first-child {
-  order: -1;
-  text-align: center;
-}
-
-.destinyfilters-wrapper
-  .destinyfilters
-  > div:not(:first-child)
-  > div:first-child {
-  margin-bottom: 10px;
-  order: -1;
-  text-align: center;
-}
-
-.destinyfilters-wrapper .destinyfilters > div:first-child {
+  z-index: 2;
   width: 100%;
+}
+
+.destinyfilters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.destinyfilters > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 10px;
+}
+
+.destinyfilters > div > div:not(:first-child) {
+  margin-top: -20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  z-index: 2;
+  align-self: center;
+}
+
+.destinyfilters > div:first-child {
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
 }
 
-.destinyfilters-wrapper .destinyfilters > div:first-child img {
+.destinyfilters > div:first-child img {
   width: 100%;
   height: auto;
 }
 
-.destinyfilters-wrapper .destinyfilters > div:not(:second-child) {
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  position: relative;
-  width: 100%;
-  margin-top: 50px;
+.destinyfilters > div > img {
+  width: 150px;
+  height: auto;
+  border-radius: 5px;
 }
