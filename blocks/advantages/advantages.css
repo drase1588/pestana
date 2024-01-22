@@ -168,58 +168,80 @@ a.button.primary {
   align-items: center;
   position: relative;
   width: 100%;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
-.destinyfilters-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
+.destinyfilters-wrapper .destinyfilters > div:nth-child(2),
+.destinyfilters-wrapper .destinyfilters > div:nth-child(3),
+.destinyfilters-wrapper .destinyfilters > div:nth-child(4) {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
   z-index: 2;
-  width: 100%;
 }
 
-.destinyfilters {
+.destinyfilters-wrapper
+  .destinyfilters
+  > div:not(:first-child):not(:nth-child(2)):not(:nth-child(3)):not(
+    :nth-child(4)
+  ) {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.destinyfilters-wrapper
+  .destinyfilters
+  > div:not(:first-child)
+  > div:nth-child(2) {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
-  margin-top: 20px;
 }
 
-.destinyfilters > div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  margin: 10px;
-}
-
-.destinyfilters > div > div:not(:first-child) {
-  margin-top: -20px;
+.destinyfilters-wrapper
+  .destinyfilters
+  > div:not(:first-child)
+  > div:nth-child(2)
+  > div {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   padding: 5px;
   border-radius: 5px;
   z-index: 2;
-  align-self: center;
 }
 
-.destinyfilters > div:first-child {
+.destinyfilters-wrapper
+  .destinyfilters
+  > div:not(:first-child)
+  > div:nth-child(2)
+  > picture {
+  width: 150px;
+  height: auto;
+}
+
+.destinyfilters-wrapper .destinyfilters > div:first-child {
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
+  width: 100%;
 }
 
-.destinyfilters > div:first-child img {
+.destinyfilters-wrapper .destinyfilters > div:first-child img {
   width: 100%;
   height: auto;
-}
-
-.destinyfilters > div > img {
-  width: 150px;
-  height: auto;
-  border-radius: 5px;
 }
