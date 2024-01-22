@@ -1,0 +1,48 @@
+.slider-wrapper {
+    overflow: hidden;
+    width: 80%;
+}
+
+.slider-wrapper .slider {
+    position: relative;
+    display: flex;
+    transition: transform 0.5s ease;
+    overflow-x: auto;
+    width: max-content;
+}
+
+.slider-wrapper .slider > div {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.slider-wrapper .slider picture {
+    position: relative;
+    flex-shrink: 0;
+}
+
+.slider-wrapper .slider picture img {
+    width: 330.75px;
+    height: 441px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.slider-wrapper .slider > div:nth-child(2) div {
+    width: 330.75px;
+    height: 441px;
+    object-fit: cover;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+
+.slider-wrapper .slider > div:nth-child(2) {
+    position: absolute;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+
