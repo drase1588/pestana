@@ -168,18 +168,18 @@ a.button.primary {
   align-items: center;
   position: relative;
   width: 100%;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 .destinyfilters-wrapper .destinyfilters > div:nth-child(2),
 .destinyfilters-wrapper .destinyfilters > div:nth-child(3),
 .destinyfilters-wrapper .destinyfilters > div:nth-child(4) {
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 50%;
   transform: translateX(-50%);
-  text-align: center;
   z-index: 2;
+  text-align: center;
 }
 
 .destinyfilters-wrapper
@@ -188,49 +188,31 @@ a.button.primary {
     :nth-child(4)
   ) {
   display: flex;
+  justify-content: center;
   flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
   flex-wrap: wrap;
+  gap: 20px;
   position: relative;
+  z-index: 1;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
-.destinyfilters-wrapper
-  .destinyfilters
-  > div:not(:first-child)
-  > div:nth-child(2) {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.destinyfilters-wrapper
-  .destinyfilters
-  > div:not(:first-child)
-  > div:nth-child(2)
-  > div {
+.destinyfilters-wrapper .destinyfilters > div:not(:first-child) > div {
+  position: relative;
   text-align: center;
+}
+
+.destinyfilters-wrapper .destinyfilters > div:not(:first-child) > div > div {
   position: absolute;
-  bottom: 0;
+  bottom: -30px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
   padding: 5px;
   border-radius: 5px;
   z-index: 2;
-}
-
-.destinyfilters-wrapper
-  .destinyfilters
-  > div:not(:first-child)
-  > div:nth-child(2)
-  > picture {
-  width: 150px;
-  height: auto;
 }
 
 .destinyfilters-wrapper .destinyfilters > div:first-child {
@@ -244,4 +226,21 @@ a.button.primary {
 .destinyfilters-wrapper .destinyfilters > div:first-child img {
   width: 100%;
   height: auto;
+}
+
+.destinyfilters-wrapper
+  .destinyfilters
+  > div:not(:first-child)
+  > div
+  > picture {
+  width: 200px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.destinyfilters-wrapper .destinyfilters > div:not(:first-child) > div > div {
+  width: 200px;
+  margin-top: 10px;
 }
