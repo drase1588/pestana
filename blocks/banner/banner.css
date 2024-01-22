@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     max-width: 100%;
-    height: 100%;
+    height: 935px;
     object-fit: cover;
     z-index: -1;
     filter: brightness(0.9);
@@ -14,7 +14,7 @@
     position: relative;
     font-size: 60px;
     font-weight: 500;
-    margin-top: 470px;
+    margin-top: 50vh;
     font-family: Noto Serif,serif;
     color: #fff;
 }
@@ -25,8 +25,8 @@
     flex-flow: row wrap;
     justify-content: space-around;
     gap: 30px;
-    margin-top: 50px;
-    margin-bottom: 200px;
+    margin-top: 5vh;
+    margin-bottom: 20vh;
     background-color: #fff;
     border-radius: 40px;
     padding: 20px;
@@ -84,3 +84,18 @@ ul>li>ul>li {
 ul>li:hover>ul {
     display: block;
 }
+
+
+@media (max-width: 700px) {
+.banner-wrapper .banner > div > div > picture > img {
+
+    height: 1100px;
+}
+}
+
+@media (max-width: 500px) {
+    .banner-wrapper .banner > div > div > picture > img {
+    
+        height: 1300px;
+    }
+    }
