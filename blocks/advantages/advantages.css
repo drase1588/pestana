@@ -201,7 +201,6 @@ a.button.primary {
 .destinyfiltersimg {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   position: relative;
   z-index: 2;
 }
