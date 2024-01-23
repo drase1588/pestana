@@ -1,11 +1,11 @@
 .titleaboveslider-wrapper .titleaboveslider > div {
     display: flex;
+    position: relative;
     flex-direction: row; 
-    align-items: flex-end; 
     margin-bottom: 30px;
     gap: 30px;
   }
-  
+
   .titleaboveslider-wrapper .titleaboveslider > div :first-child {
     margin-right: auto; 
     font-size: 60px;
@@ -16,5 +16,6 @@
   
   .titleaboveslider-wrapper .titleaboveslider > div {
     margin-left: auto; 
+    align-items: flex-end; 
     font-size: 15px;
   }
