@@ -171,58 +171,35 @@ a.button.primary {
 
 .destinyfilters {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  position: relative;
+  flex-direction: row;
   width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .destinyfilters > div {
+  margin: 0 15px;
+}
+
+.destinyfiltersimg-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.destinyfiltersimg-wrapper > div {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 10px;
 }
 
-.destinyfilters > div > div:first-child {
-  order: 2;
-}
-
-.destinyfilters > div > div {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.destinyfilters > div:nth-child(2),
-.destinyfilters > div:nth-child(3),
-.destinyfilters > div:nth-child(4) {
-  order: 1;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
-
-.destinyfiltersimg {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  width: 100%;
-  margin-top: 50px;
-}
-
-.destinyfiltersimg > div {
-  flex-basis: calc(33.333% - 20px);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.destinyfiltersimg > div > div:first-child {
-  order: 2;
-}
-
-.destinyfiltersimg > div > div:nth-child(2) {
-  order: 3;
+.destinyfiltersimg-wrapper > div > div:last-child {
+  margin-top: 10px;
 }
