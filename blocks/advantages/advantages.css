@@ -163,6 +163,15 @@ a.button.primary {
   flex: 0 1 auto;
 } */
 
+.destinyfilters-wrapper .destinyfilters > div > div > picture > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  background-color: aqua;
+}
+
 .destinyfilters-wrapper {
   display: flex;
   flex-direction: column;
