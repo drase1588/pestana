@@ -190,6 +190,14 @@ a.button.primary {
   z-index: 2; */
 }
 
+.destinyfilters-wrapper .destinyfilters > div {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  margin-bottom: 30px;
+  gap: 30px;
+}
+
 .destinyfiltersimg {
   display: flex;
   flex-wrap: wrap;
