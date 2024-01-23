@@ -162,7 +162,7 @@ a.button.primary {
   margin: 0 10px;
   flex: 0 1 auto;
 } */
-.destinyfilters-wrapper .destinyfilters > div > div > picture > img {
+/* .destinyfilters-wrapper .destinyfilters > div > div > picture > img {
   top: 16px;
   width: 1338px;
   max-width: 1249px;
@@ -171,8 +171,17 @@ a.button.primary {
   position: absolute;
   left: -471px;
   z-index: -2;
+} */
+.destinyfilters-wrapper .destinyfilters > div > div > picture > img {
+  top: 16px;
+  width: 1335px;
+  max-width: 1211px;
+  height: 793px;
+  object-fit: none;
+  position: absolute;
+  left: -633px;
+  z-index: -2;
 }
-
 .destinyfilters-wrapper {
   display: flex;
   /* flex-direction: column; */
