@@ -173,7 +173,9 @@ a.button.primary {
 .destinyfilters-texts {
   width: 100%;
   text-align: center;
-  margin-bottom: 20px;
+  position: absolute;
+  top: 20px;
+  z-index: 2;
 }
 
 .destinyfilters-background {
@@ -182,7 +184,7 @@ a.button.primary {
   height: auto;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: 1;
 }
 
 .destinyfilters-images {
@@ -192,12 +194,12 @@ a.button.primary {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  padding-top: 20px;
+  position: relative;
+  margin-top: 60px;
 }
 
 .destinyfilters-image {
   position: relative;
-  margin-bottom: 30px;
 }
 
 .destinyfilters-caption {
@@ -207,7 +209,7 @@ a.button.primary {
   transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
-  padding: 5px;
+  padding: 5px 10px;
   border-radius: 5px;
   z-index: 2;
 }
