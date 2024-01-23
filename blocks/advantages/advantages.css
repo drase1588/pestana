@@ -177,9 +177,9 @@ a.button.primary {
   width: 1335px;
   max-width: 1211px;
   height: 793px;
-  object-fit: none;
+  object-fit: vover;
   position: absolute;
-  left: -228px;
+  left: -168px;
   z-index: -2;
 }
 .destinyfilters-wrapper {
@@ -190,7 +190,7 @@ a.button.primary {
 }
 
 .destinyfilters {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   align-items: center;
   text-align: center;
