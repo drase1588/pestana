@@ -183,23 +183,27 @@ a.button.primary {
   margin: 0 15px;
 }
 
-.destinyfiltersimg-wrapper {
+.destinyfiltersimg {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
-  width: 100%;
   flex-wrap: wrap;
-  gap: 20px;
 }
 
-.destinyfiltersimg-wrapper > div {
+.destinyfiltersimg > div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 10px;
+  margin: 10px;
 }
 
-.destinyfiltersimg-wrapper > div > div:last-child {
-  margin-top: 10px;
+.destinyfiltersimg img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .destinyfiltersimg {
+    flex-direction: column;
+  }
 }
