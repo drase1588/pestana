@@ -176,7 +176,8 @@ a.button.primary {
   align-items: center;
   text-align: center;
   margin-bottom: 20px;
-  background-color: aqua;
+  position: relative;
+  z-index: 2;
 }
 
 .menu-container {
