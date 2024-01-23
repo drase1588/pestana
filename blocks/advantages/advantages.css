@@ -162,49 +162,41 @@ a.button.primary {
   margin: 0 10px;
   flex: 0 1 auto;
 } */
+
 .destinyfilters-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  padding-top: 20px;
 }
 
 .destinyfilters {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: nowrap;
-  gap: 20px;
-  margin-top: 20px;
-}
-
-.top-texts {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-bottom: 10px;
-}
-
-.top-texts > div {
-  text-align: center;
-  padding: 5px 10px;
-}
-
-.destinyfilters > div {
-  display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
-}
-
-.destinyfilters > div > img {
-  width: auto;
-  height: auto;
-  z-index: 1;
-}
-
-.destinyfilters > div > span {
-  display: block;
   text-align: center;
-  margin-top: 5px;
+}
+
+.destinyfilters > div:first-child {
+  order: -1;
+}
+
+.destinyfilters > div:not(:first-child) {
+  display: flex;
+}
+
+.destinyfiltersimg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.destinyfiltersimg > div {
+  margin: 10px;
+}
+
+.destinyfiltersimg img {
+  max-width: 100%;
+  height: auto;
 }
