@@ -167,6 +167,7 @@ a.button.primary {
   flex-direction: column;
   align-items: center;
   position: relative;
+  padding-top: 20px;
 }
 
 .destinyfilters {
@@ -182,6 +183,7 @@ a.button.primary {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .destinyfiltersimg {
@@ -189,6 +191,7 @@ a.button.primary {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .destinyfiltersimg > div {
@@ -204,6 +207,11 @@ a.button.primary {
 }
 
 @media (max-width: 600px) {
+  .destinyfilters {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .destinyfiltersimg {
     flex-direction: column;
   }
