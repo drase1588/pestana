@@ -137,7 +137,15 @@ a.button.primary {
 .destinyfilters-wrapper .destinyfilters > div:nth-child(2) {
   position: relative;
   margin-top: 20vh;
-  color: #820e0e;
+  color: var(--Grayscale-Black, #000);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Display/Display - M */
+  font-family: "Noto Serif";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%; /* 75px */
 }
 
 .destinyfilters-wrapper .destinyfilters > div {
