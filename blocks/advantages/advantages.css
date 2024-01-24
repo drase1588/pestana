@@ -147,6 +147,9 @@ a.button.primary {
   font-style: normal;
   font-weight: 500;
   line-height: 125%; /* 75px */
+  max-width: 526px;
+  margin-left: -4px;
+  text-align: left;
 }
 
 .destinyfilters-wrapper .destinyfilters > div {
