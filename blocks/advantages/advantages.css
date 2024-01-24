@@ -166,7 +166,15 @@ a.button.primary {
   font-weight: 400;
   line-height: 125%; /* 22.5px */
 }
+
 .destinyfilters-wrapper .destinyfilters > div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  gap: 30px;
+}
+
+.destinyfiltersarrows-wrapper .destinyfiltersarrows > div {
   display: flex;
   flex-direction: row;
   margin-bottom: 30px;
