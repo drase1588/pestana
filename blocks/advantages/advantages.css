@@ -186,18 +186,16 @@ a.button.primary {
 
 .destinyfilters-wrapper .destinyfilters > div:nth-child(2) {
   position: relative;
-  margin-top: 50vh;
+  margin-top: 20vh;
   color: #820e0e;
 }
 
 .destinyfilters-wrapper .destinyfilters > div {
   margin-left: auto;
   align-items: flex-end;
-  font-size: 15px;
 }
 .destinyfilters-wrapper .destinyfilters > div {
   display: flex;
-  position: relative;
   flex-direction: row;
   margin-bottom: 30px;
   gap: 30px;
