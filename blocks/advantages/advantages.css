@@ -178,7 +178,10 @@ a.button.primary {
   display: flex;
   flex-direction: row;
   margin-bottom: 30px;
-  gap: 30px;
+  margin-left: 93px;
+  width: 190px;
+  margin-top: -58px;
+  gap: 152px;
 }
 
 .destinyfiltersimg {
