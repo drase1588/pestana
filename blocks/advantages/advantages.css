@@ -172,7 +172,7 @@ a.button.primary {
   font-weight: 500;
   line-height: 125%; /* 75px */
   max-width: 526px;
-  margin-left: -170px;
+  margin-left: -120px;
   text-align: left;
 }
 
@@ -200,7 +200,7 @@ a.button.primary {
   margin-bottom: 25px;
   gap: 80px;
   /* padding-left: 64px; */
-  margin-left: -170px;
+  margin-left: -125px;
 }
 
 .destinyfiltersarrows-wrapper .destinyfiltersarrows > div {
