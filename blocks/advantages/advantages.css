@@ -199,7 +199,8 @@ a.button.primary {
   flex-direction: row;
   margin-bottom: 25px;
   gap: 80px;
-  padding-left: 64px;
+  /* padding-left: 64px; */
+  margin-left: -170px;
 }
 
 .destinyfiltersarrows-wrapper .destinyfiltersarrows > div {
