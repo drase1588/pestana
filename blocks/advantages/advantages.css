@@ -126,7 +126,7 @@ a.button.primary {
 /* tests */
 .destinyfilters-wrapper .destinyfilters > div > div > picture > img {
   position: absolute;
-  left: 0;
+  left: 0 !important;
   width: 100%;
   max-width: 100%;
   height: 935px;
