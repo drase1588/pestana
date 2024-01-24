@@ -1,13 +1,13 @@
+/* SLIDER */
 .slider-wrapper {
     overflow: hidden;
-    width: 80%;
+    width: 100%px;
 }
 
 .slider-wrapper .slider {
     position: relative;
     display: flex;
-    transition: transform 0.5s ease;
-    overflow-x: auto;
+    transition: transform 1s ease;
     width: max-content;
 }
 
@@ -30,22 +30,79 @@
     border-radius: 15px;
 }
 
+.slider-wrapper .slider > div:nth-child(2) {
+    position: absolute;
+}
+
 .slider-wrapper .slider > div:nth-child(2) div {
-    width: 330.75px;
     height: 441px;
-    object-fit: cover;
-    border-radius: 15px;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
 
-.slider-wrapper .slider > div:nth-child(2) {
+.slider-wrapper .slider > div:nth-child(3),
+.slider-wrapper .slider > div:nth-child(4){
     position: absolute;
     color: #fff;
     font-size: 16px;
     border-radius: 15px;
+    text-align: left;
+    margin-left: 4vh;
+    margin-top: 38vh;
+}
+
+.slider-wrapper .slider > div:nth-child(4) {
+    margin-top: 40vh;
+    padding-top: 1vh;
+}
+
+.slider-wrapper .slider > div:nth-child(2) div,
+.slider-wrapper .slider > div:nth-child(3) div,
+.slider-wrapper .slider > div:nth-child(4) div{
+    width: 330.75px;
+    object-fit: cover;
+    border-radius: 15px;
 }
 
 
+.slider-wrapper .slider > div:nth-child(5) {
+    position: absolute;
+    color: #000;
+    font-size: 16px;
+    border-radius: 15px;
+    text-align: left;
+  
+}
+
+.slider-wrapper .slider > div:nth-child(5) div {
+    margin-right: 330.75px;
+    margin-top: 3vh;
+    margin-left: 4vh;
+}
+
+.slider-wrapper .slider > div:nth-child(5) div:not(:empty) {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #fff;
+    border-radius: 100%;
+    height: 46px;
+    width: 46px;
+    font-weight: bold;
+}
+.slider-wrapper .slider > div:nth-child(5) div:nth-child(1) {
+    margin-right: 300px;
+}
+
+.slider-wrapper .slider > div:nth-child(5) div:nth-child(3) {
+    margin-right: 200px;
+}
+
+.slider-wrapper .slider > div:nth-child(5) div:nth-child(4) {
+    margin-right: 250px;
+}
+
+
+/* TITLE ABOVE SLIDER */
 
 .titleaboveslider-wrapper .titleaboveslider > div {
     display: flex;
@@ -69,5 +126,14 @@
     font-size: 15px;
   }
 
+  /* ARROWS */
+
+.arrows-wrapper > .arrows div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    cursor: pointer; 
+}
 
 
