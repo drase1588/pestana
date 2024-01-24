@@ -226,6 +226,7 @@ a.button.primary {
   font-feature-settings: "clig" off, "liga" off;
   /* padding-left: 64px; */
   left: -110px;
+  margin-left: -20px;
 
   /* Ui/Ui - M Medium */
   font-family: "Noto Sans";
