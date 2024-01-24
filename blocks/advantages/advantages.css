@@ -222,7 +222,8 @@ a.button.primary {
   color: var(--Grayscale-Black, #000);
   text-align: center;
   font-feature-settings: "clig" off, "liga" off;
-  padding-left: 64px;
+  /* padding-left: 64px; */
+  left: -110px;
 
   /* Ui/Ui - M Medium */
   font-family: "Noto Sans";
