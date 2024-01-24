@@ -200,7 +200,7 @@ a.button.primary {
   margin-bottom: 25px;
   gap: 80px;
   /* padding-left: 64px; */
-  margin-left: -125px;
+  margin-left: -115px;
 }
 
 .destinyfiltersarrows-wrapper .destinyfiltersarrows > div {
@@ -211,7 +211,8 @@ a.button.primary {
   width: 190px;
   margin-top: -58px;
   gap: 152px;
-  padding-left: 64px;
+  /* padding-left: 64px; */
+  margin-left: -24px;
 }
 
 .destinyfiltersimg {
