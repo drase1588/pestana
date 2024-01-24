@@ -156,6 +156,15 @@ a.button.primary {
   padding: 8px 0px;
   align-items: center;
   gap: 10px;
+  color: var(--Grayscale-500, #575757);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Text/Text - S Regular */
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 22.5px */
 }
 .destinyfilters-wrapper .destinyfilters > div {
   display: flex;
