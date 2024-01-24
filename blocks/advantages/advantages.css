@@ -175,6 +175,7 @@ a.button.primary {
   flex-direction: row;
   margin-bottom: 25px;
   gap: 80px;
+  padding-left: 64px;
 }
 
 .destinyfiltersarrows-wrapper .destinyfiltersarrows > div {
@@ -185,6 +186,7 @@ a.button.primary {
   width: 190px;
   margin-top: -58px;
   gap: 152px;
+  padding-left: 64px;
 }
 
 .destinyfiltersimg {
@@ -196,6 +198,7 @@ a.button.primary {
   color: var(--Grayscale-Black, #000);
   text-align: center;
   font-feature-settings: "clig" off, "liga" off;
+  padding-left: 64px;
 
   /* Ui/Ui - M Medium */
   font-family: "Noto Sans";
