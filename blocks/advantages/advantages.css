@@ -122,56 +122,6 @@ a.button.primary {
 }
 
 /* --destinyfilters-- */
-/* .destinyfilters-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  padding-top: 100px;
-}
-
-.destinyfilters-wrapper .destinyfilters > div:first-child {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  z-index: -1;
-}
-
-.destinyfilters-wrapper .destinyfilters {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  position: relative;
-  width: 100%;
-  margin-top: 50px;
-  z-index: 1;
-}
-
-.destinyfilters-text {
-  position: absolute;
-  top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 2;
-}
-
-.destinyfilters-wrapper .destinyfilters > div:not(:first-child) {
-  margin: 0 10px;
-  flex: 0 1 auto;
-} */
-/* .destinyfilters-wrapper .destinyfilters > div > div > picture > img {
-  top: 16px;
-  width: 1338px;
-  max-width: 1249px;
-  height: 588px;
-  object-fit: none;
-  position: absolute;
-  left: -471px;
-  z-index: -2;
-} */
 
 /* tests */
 .destinyfilters-wrapper .destinyfilters > div > div > picture > img {
@@ -199,4 +149,15 @@ a.button.primary {
   flex-direction: row;
   margin-bottom: 30px;
   gap: 30px;
+}
+
+.destinyfiltersimg {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
+}
+
+.destinyfiltersimg > div {
+  margin: 10px;
 }
