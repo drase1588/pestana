@@ -122,78 +122,87 @@ a.button.primary {
 }
 
 /* --destinyfilters-- */
-/* .destinyfilters-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  padding-top: 100px;
-}
 
-.destinyfilters-wrapper .destinyfilters > div:first-child {
+/* tests */
+.destinyfilters-wrapper .destinyfilters > div > div > picture > img {
   position: absolute;
-  top: 0;
-  left: 0;
+  left: 0 !important;
   width: 100%;
-  height: auto;
+  max-width: 100%;
+  height: 935px;
+  object-fit: cover;
   z-index: -1;
 }
 
-.destinyfilters-wrapper .destinyfilters {
+.destinyfilters-wrapper .destinyfilters > div:nth-child(2) {
+  position: relative;
+  margin-top: 20vh;
+  align-self: stretch;
+  color: var(--Grayscale-Black, #000);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Display/Display - M */
+  font-family: "Noto Serif";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%; /* 75px */
+  max-width: 526px;
+  margin-left: -4px;
+  text-align: left;
+}
+
+.destinyfilters-wrapper .destinyfilters > div {
+  margin-left: auto;
+  align-items: flex-end;
+  display: flex;
+  padding: 8px 0px;
+  align-items: center;
+  gap: 10px;
+  color: var(--Grayscale-500, #575757);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Text/Text - S Regular */
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 22.5px */
+}
+
+.destinyfilters-wrapper .destinyfilters > div {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  position: relative;
-  width: 100%;
-  margin-top: 50px;
-  z-index: 1;
+  margin-bottom: 25px;
+  gap: 80px;
 }
 
-.destinyfilters-text {
-  position: absolute;
-  top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 2;
-}
-
-.destinyfilters-wrapper .destinyfilters > div:not(:first-child) {
-  margin: 0 10px;
-  flex: 0 1 auto;
-} */
-
-.destinyfilters-wrapper {
+.destinyfiltersarrows-wrapper .destinyfiltersarrows > div {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-}
-
-.destinyfilters {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 20px;
-  background-color: aqua;
-}
-
-.menu-container {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.map-container {
-  width: 100%;
-  height: 500px;
+  flex-direction: row;
+  margin-bottom: 30px;
+  margin-left: 93px;
+  width: 190px;
+  margin-top: -58px;
+  gap: 152px;
 }
 
 .destinyfiltersimg {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 500px;
+  color: var(--Grayscale-Black, #000);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Ui/Ui - M Medium */
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%; /* 17.5px */
 }
 
 .destinyfiltersimg > div {
