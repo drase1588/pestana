@@ -133,14 +133,8 @@ a.button.primary {
   object-fit: cover;
   z-index: -1;
 }
-.destinyfilters-wrapper .destinyfilters > div > div {
-  position: relative;
-  z-index: 1;
-}
 
 .destinyfilters-wrapper .destinyfilters > div > div::before {
-  content: "";
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
