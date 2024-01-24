@@ -189,14 +189,3 @@ a.button.primary {
   margin-top: 20vh;
   color: #820e0e;
 }
-
-.destinyfilters-wrapper .destinyfilters > div {
-  margin-left: auto;
-  align-items: flex-end;
-}
-.destinyfilters-wrapper .destinyfilters > div {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 30px;
-  gap: 30px;
-}
