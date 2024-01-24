@@ -137,6 +137,7 @@ a.button.primary {
 .destinyfilters-wrapper .destinyfilters > div:nth-child(2) {
   position: relative;
   margin-top: 20vh;
+  align-self: stretch;
   color: var(--Grayscale-Black, #000);
   font-feature-settings: "clig" off, "liga" off;
 
