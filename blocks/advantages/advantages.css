@@ -152,6 +152,10 @@ a.button.primary {
 .destinyfilters-wrapper .destinyfilters > div {
   margin-left: auto;
   align-items: flex-end;
+  display: flex;
+  padding: 8px 0px;
+  align-items: center;
+  gap: 10px;
 }
 .destinyfilters-wrapper .destinyfilters > div {
   display: flex;
