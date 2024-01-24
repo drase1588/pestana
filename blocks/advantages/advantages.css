@@ -198,7 +198,7 @@ a.button.primary {
   display: flex;
   flex-direction: row;
   margin-bottom: 25px;
-  gap: 80px;
+  gap: 35px;
   /* padding-left: 64px; */
   margin-left: -115px;
 }
@@ -212,7 +212,7 @@ a.button.primary {
   margin-top: -58px;
   gap: 152px;
   /* padding-left: 64px; */
-  margin-left: -24px;
+  margin-left: -14px;
 }
 
 .destinyfiltersimg {
@@ -227,6 +227,7 @@ a.button.primary {
   /* padding-left: 64px; */
   left: -110px;
   margin-left: -20px;
+  margin-top: 80px;
 
   /* Ui/Ui - M Medium */
   font-family: "Noto Sans";
