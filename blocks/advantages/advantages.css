@@ -124,13 +124,41 @@ a.button.primary {
 /* --destinyfilters-- */
 
 /* tests */
-.destinyfilters-wrapper .destinyfilters > div > div > picture > img {
+/* .destinyfilters-wrapper .destinyfilters > div > div > picture > img {
   position: absolute;
   left: 0 !important;
   width: 100%;
   max-width: 100%;
   height: 935px;
   object-fit: cover;
+  z-index: -1;
+} */
+
+.destinyfilters-wrapper .destinyfilters > div > div > picture > img {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.destinyfilters-wrapper::after {
+  content: "";
+  position: absolute;
+  /* top: 1709px;
+  left: 114px;
+  width: 100%;
+  height: 100%; */
+  top: 160vh;
+  left: 10vw;
+  width: 90vw;
+  height: 120vh;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
   z-index: -1;
 }
 
@@ -148,7 +176,8 @@ a.button.primary {
   font-weight: 500;
   line-height: 125%; /* 75px */
   max-width: 526px;
-  margin-left: -4px;
+  /* margin-left: -120px; */
+  margin-left: -1rem;
   text-align: left;
 }
 
@@ -167,14 +196,18 @@ a.button.primary {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 125%; /* 22.5px */
+  line-height: 125%;
 }
 
 .destinyfilters-wrapper .destinyfilters > div {
   display: flex;
   flex-direction: row;
   margin-bottom: 25px;
-  gap: 80px;
+  /* gap: 35px; */
+  gap: 4vh;
+  /* padding-left: 64px; */
+  /* margin-left: -115px; */
+  margin-left: -1rem;
 }
 
 .destinyfiltersarrows-wrapper .destinyfiltersarrows > div {
@@ -182,9 +215,12 @@ a.button.primary {
   flex-direction: row;
   margin-bottom: 30px;
   margin-left: 93px;
-  width: 190px;
+  width: 145px;
   margin-top: -58px;
-  gap: 152px;
+  /* gap: 105px; */
+  gap: 11vh;
+  /* margin-left: -22px; */
+  margin-left: 5rem;
 }
 
 .destinyfiltersimg {
@@ -196,6 +232,11 @@ a.button.primary {
   color: var(--Grayscale-Black, #000);
   text-align: center;
   font-feature-settings: "clig" off, "liga" off;
+  /* padding-left: 64px; */
+  left: -110px;
+  /* margin-left: -20px; */
+  margin-left: 5rem;
+  margin-top: 80px;
 
   /* Ui/Ui - M Medium */
   font-family: "Noto Sans";

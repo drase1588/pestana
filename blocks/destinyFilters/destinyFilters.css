@@ -1,38 +1,84 @@
-/* .backgroundimage-wrapper {
-  position: relative;
-  z-index: 1;
+.destinyfilters-wrapper .destinyfilters > div > div > picture > img {
+  position: absolute;
+  left: 0 !important;
+  width: 100%;
+  max-width: 100%;
+  height: 935px;
+  object-fit: cover;
+  z-index: -1;
 }
 
-.titledestinyfilters-wrapper .titledestinyfilters {
+.destinyfilters-wrapper .destinyfilters > div:nth-child(2) {
+  position: relative;
+  margin-top: 20vh;
+  align-self: stretch;
   color: var(--Grayscale-Black, #000);
   font-feature-settings: "clig" off, "liga" off;
 
-  font-family: Noto Serif;
+  /* Display/Display - M */
+  font-family: "Noto Serif";
   font-size: 60px;
   font-style: normal;
   font-weight: 500;
-  line-height: 125%;
+  line-height: 125%; /* 75px */
+  max-width: 526px;
+  margin-left: -4px;
   text-align: left;
 }
 
-.highlightsdestinyfilters-wrapper .highlightsdestinyfilters {
+.destinyfilters-wrapper .destinyfilters > div {
+  margin-left: auto;
+  align-items: flex-end;
   display: flex;
+  padding: 8px 0px;
   align-items: center;
-  flex-wrap: wrap;
-  text-align: center;
-  gap: 16px;
+  gap: 10px;
+  color: var(--Grayscale-500, #575757);
+  font-feature-settings: "clig" off, "liga" off;
 
+  /* Text/Text - S Regular */
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 22.5px */
+}
+
+.destinyfilters-wrapper .destinyfilters > div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+  gap: 80px;
+}
+
+.destinyfiltersarrows-wrapper .destinyfiltersarrows > div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  margin-left: 93px;
+  width: 190px;
+  margin-top: -58px;
+  gap: 152px;
+}
+
+.destinyfiltersimg {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 500px;
   color: var(--Grayscale-Black, #000);
   text-align: center;
   font-feature-settings: "clig" off, "liga" off;
 
-  font-family: Noto Sans;
-  font-size: 16px;
+  /* Ui/Ui - M Medium */
+  font-family: "Noto Sans";
+  font-size: 14px;
   font-style: normal;
-  font-weight: 300;
-  line-height: 125%;
-} */
+  font-weight: 500;
+  line-height: 125%; /* 17.5px */
+}
 
-/* .destinyfilters-wrapper .destinyfilters {
-  color: #ca1a1a;
-} */
+.destinyfiltersimg > div {
+  margin: 10px;
+}
