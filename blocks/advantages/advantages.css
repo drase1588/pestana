@@ -133,17 +133,16 @@ a.button.primary {
   object-fit: cover;
   z-index: -1;
 } */
-
-.destinyfilters-wrapper .destinyfilters > div > div > picture > img {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  z-index: -1;
-}
-
 @media (min-width: 769px) and (max-width: 1024px) {
+  .destinyfilters-wrapper .destinyfilters > div > div > picture > img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: -1;
+  }
+
   .destinyfilters-wrapper::after {
     content: "";
     position: absolute;
