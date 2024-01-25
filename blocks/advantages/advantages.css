@@ -181,7 +181,7 @@ a.button.primary {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: auto;
+  margin-left: -1%;
   margin-right: auto;
   margin-bottom: 25px;
   padding: 0.5rem 0;
