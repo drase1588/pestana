@@ -178,31 +178,21 @@ a.button.primary {
 }
 
 .destinyfilters-wrapper .destinyfilters > div {
-  margin-left: auto;
-  align-items: flex-end;
   display: flex;
-  padding: 8px 0px;
+  flex-direction: row;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  padding: 0.5rem 0;
+  gap: 3rem;
   color: var(--Grayscale-500, #575757);
-  font-feature-settings: "clig" off, "liga" off;
-
-  /* Text/Text - S Regular */
   font-family: "Noto Sans";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 125%;
-}
-
-.destinyfilters-wrapper .destinyfilters > div {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 25px;
-  /* gap: 35px; */
-  gap: 3rem;
-  /* padding-left: 64px; */
-  /* margin-left: -115px; */
-  margin-left: -1rem;
+  font-feature-settings: "clig" off, "liga" off;
 }
 
 .destinyfiltersarrows-wrapper .destinyfiltersarrows > div {
