@@ -143,99 +143,101 @@ a.button.primary {
   z-index: -1;
 }
 
-.destinyfilters-wrapper::after {
-  content: "";
-  position: absolute;
-  top: 1709px;
-  left: 114px;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0)
-  );
-  z-index: -1;
-}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .destinyfilters-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 1709px;
+    left: 114px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0)
+    );
+    z-index: -1;
+  }
 
-.destinyfilters-wrapper .destinyfilters > div:nth-child(2) {
-  position: relative;
-  margin-top: 20vh;
-  align-self: stretch;
-  color: var(--Grayscale-Black, #000);
-  font-feature-settings: "clig" off, "liga" off;
+  .destinyfilters-wrapper .destinyfilters > div:nth-child(2) {
+    position: relative;
+    margin-top: 20vh;
+    align-self: stretch;
+    color: var(--Grayscale-Black, #000);
+    font-feature-settings: "clig" off, "liga" off;
 
-  /* Display/Display - M */
-  font-family: "Noto Serif";
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 125%; /* 75px */
-  max-width: 526px;
-  margin-left: -120px;
-  text-align: left;
-}
+    /* Display/Display - M */
+    font-family: "Noto Serif";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 75px */
+    max-width: 526px;
+    margin-left: -120px;
+    text-align: left;
+  }
 
-.destinyfilters-wrapper .destinyfilters > div {
-  margin-left: auto;
-  align-items: flex-end;
-  display: flex;
-  padding: 8px 0px;
-  align-items: center;
-  gap: 10px;
-  color: var(--Grayscale-500, #575757);
-  font-feature-settings: "clig" off, "liga" off;
+  .destinyfilters-wrapper .destinyfilters > div {
+    margin-left: auto;
+    align-items: flex-end;
+    display: flex;
+    padding: 8px 0px;
+    align-items: center;
+    gap: 10px;
+    color: var(--Grayscale-500, #575757);
+    font-feature-settings: "clig" off, "liga" off;
 
-  /* Text/Text - S Regular */
-  font-family: "Noto Sans";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 125%; /* 22.5px */
-}
+    /* Text/Text - S Regular */
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 22.5px */
+  }
 
-.destinyfilters-wrapper .destinyfilters > div {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 25px;
-  gap: 35px;
-  /* padding-left: 64px; */
-  margin-left: -115px;
-}
+  .destinyfilters-wrapper .destinyfilters > div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+    gap: 35px;
+    /* padding-left: 64px; */
+    margin-left: -115px;
+  }
 
-.destinyfiltersarrows-wrapper .destinyfiltersarrows > div {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 30px;
-  margin-left: 93px;
-  width: 145px;
-  margin-top: -58px;
-  gap: 105px;
-  margin-left: -22px;
-}
+  .destinyfiltersarrows-wrapper .destinyfiltersarrows > div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-left: 93px;
+    width: 145px;
+    margin-top: -58px;
+    gap: 105px;
+    margin-left: -22px;
+  }
 
-.destinyfiltersimg {
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
-  z-index: 2;
-  margin-bottom: 500px;
-  color: var(--Grayscale-Black, #000);
-  text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
-  /* padding-left: 64px; */
-  left: -110px;
-  margin-left: -20px;
-  margin-top: 80px;
+  .destinyfiltersimg {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 500px;
+    color: var(--Grayscale-Black, #000);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    /* padding-left: 64px; */
+    left: -110px;
+    margin-left: -20px;
+    margin-top: 80px;
 
-  /* Ui/Ui - M Medium */
-  font-family: "Noto Sans";
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 125%; /* 17.5px */
-}
+    /* Ui/Ui - M Medium */
+    font-family: "Noto Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 17.5px */
+  }
 
-.destinyfiltersimg > div {
-  margin: 10px;
+  .destinyfiltersimg > div {
+    margin: 10px;
+  }
 }
