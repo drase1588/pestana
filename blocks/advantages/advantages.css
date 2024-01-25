@@ -150,9 +150,9 @@ a.button.primary {
   left: 114px;
   width: 100%;
   height: 100%; */
-  top: 100vh;
+  top: 160vh;
   left: 10vw;
-  width: 100vw;
+  width: 90vw;
   height: 100vh;
   background: linear-gradient(
     to right,
