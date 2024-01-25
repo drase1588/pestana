@@ -219,7 +219,8 @@ a.button.primary {
   margin-top: -58px;
   /* gap: 105px; */
   gap: 11vh;
-  margin-left: -22px;
+  /* margin-left: -22px; */
+  margin-left: 5rem;
 }
 
 .destinyfiltersimg {
