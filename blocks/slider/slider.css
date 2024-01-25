@@ -1,7 +1,7 @@
 /* SLIDER */
 .slider-wrapper {
     overflow: hidden;
-    width: 100%px;
+    width: 100%;
 }
 
 .slider-wrapper .slider {
@@ -10,6 +10,7 @@
     transition: transform 1s ease;
     width: max-content;
 }
+
 
 .slider-wrapper .slider > div {
     position: relative;
