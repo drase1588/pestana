@@ -185,7 +185,7 @@ a.button.primary {
   margin-right: auto;
   margin-bottom: 25px;
   padding: 0.5rem 0;
-  gap: 3rem;
+  gap: 4rem;
   color: var(--Grayscale-500, #575757);
   font-family: "Noto Sans";
   font-size: 18px;
@@ -201,9 +201,9 @@ a.button.primary {
   margin-bottom: 30px;
   margin-left: 93px;
   width: 15%;
-  margin-top: -55px;
+  margin-top: -60px;
   /* gap: 105px; */
-  gap: 8rem;
+  gap: 9rem;
   /* margin-left: -22px; */
   margin-left: 5rem;
 }
