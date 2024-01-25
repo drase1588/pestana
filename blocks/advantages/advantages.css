@@ -200,7 +200,7 @@ a.button.primary {
   flex-direction: row;
   margin-bottom: 25px;
   /* gap: 35px; */
-  gap: 4vh;
+  gap: 5vh;
   /* padding-left: 64px; */
   /* margin-left: -115px; */
   margin-left: -1rem;
@@ -211,8 +211,8 @@ a.button.primary {
   flex-direction: row;
   margin-bottom: 30px;
   margin-left: 93px;
-  width: 145px;
-  margin-top: -58px;
+  width: 15%;
+  margin-top: -55px;
   /* gap: 105px; */
   gap: 11vh;
   /* margin-left: -22px; */
