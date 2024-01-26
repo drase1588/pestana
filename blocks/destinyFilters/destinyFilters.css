@@ -1,10 +1,37 @@
-.destinyfilters-wrapper .destinyfilters > div > div > picture > img {
+/* --destinyfilters-- */
+
+/* tests */
+/* .destinyfilters-wrapper .destinyfilters > div > div > picture > img {
   position: absolute;
   left: 0 !important;
   width: 100%;
   max-width: 100%;
   height: 935px;
   object-fit: cover;
+  z-index: -1;
+} */
+
+.destinyfilters-wrapper .destinyfilters > div > div > picture > img {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.destinyfilters-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 145vh;
+  left: 10vw;
+  width: 90vw;
+  height: 131vh;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
   z-index: -1;
 }
 
@@ -22,33 +49,27 @@
   font-weight: 500;
   line-height: 125%; /* 75px */
   max-width: 526px;
-  margin-left: -4px;
+  /* margin-left: -120px; */
+  margin-left: -1rem;
   text-align: left;
-}
-
-.destinyfilters-wrapper .destinyfilters > div {
-  margin-left: auto;
-  align-items: flex-end;
-  display: flex;
-  padding: 8px 0px;
-  align-items: center;
-  gap: 10px;
-  color: var(--Grayscale-500, #575757);
-  font-feature-settings: "clig" off, "liga" off;
-
-  /* Text/Text - S Regular */
-  font-family: "Noto Sans";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 125%; /* 22.5px */
 }
 
 .destinyfilters-wrapper .destinyfilters > div {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin-left: -1%;
+  margin-right: auto;
   margin-bottom: 25px;
-  gap: 80px;
+  padding: 0.5rem 0;
+  gap: 4rem;
+  color: var(--Grayscale-500, #575757);
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  font-feature-settings: "clig" off, "liga" off;
 }
 
 .destinyfiltersarrows-wrapper .destinyfiltersarrows > div {
@@ -56,20 +77,28 @@
   flex-direction: row;
   margin-bottom: 30px;
   margin-left: 93px;
-  width: 190px;
-  margin-top: -58px;
-  gap: 152px;
+  width: 15%;
+  margin-top: -60px;
+  /* gap: 105px; */
+  gap: 9rem;
+  /* margin-left: -22px; */
+  margin-left: 5rem;
 }
 
 .destinyfiltersimg {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  z-index: 2;
+  z-index: 1;
   margin-bottom: 500px;
   color: var(--Grayscale-Black, #000);
   text-align: center;
   font-feature-settings: "clig" off, "liga" off;
+  /* padding-left: 64px; */
+  left: -110px;
+  /* margin-left: -20px; */
+  margin-left: 5rem;
+  margin-top: 80px;
 
   /* Ui/Ui - M Medium */
   font-family: "Noto Sans";
