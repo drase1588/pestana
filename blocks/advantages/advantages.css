@@ -212,7 +212,7 @@ a.button.primary {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  z-index: 2;
+  z-index: 1;
   margin-bottom: 500px;
   color: var(--Grayscale-Black, #000);
   text-align: center;
