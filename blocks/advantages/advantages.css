@@ -141,6 +141,7 @@ a.button.primary {
   height: auto;
   object-fit: cover;
   z-index: -1;
+  transform: translateY(373px);
 }
 
 .destinyfilters-wrapper::after {
@@ -160,7 +161,8 @@ a.button.primary {
 
 .destinyfilters-wrapper .destinyfilters > div:nth-child(2) {
   position: relative;
-  margin-top: 20vh;
+  /* margin-top: 20vh; */
+  margin-top: 48vh;
   align-self: stretch;
   color: var(--Grayscale-Black, #000);
   font-feature-settings: "clig" off, "liga" off;
@@ -212,7 +214,7 @@ a.button.primary {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  z-index: 2;
+  z-index: 1;
   margin-bottom: 500px;
   color: var(--Grayscale-Black, #000);
   text-align: center;
@@ -233,4 +235,7 @@ a.button.primary {
 
 .destinyfiltersimg > div {
   margin: 10px;
+}
+.destinyfilters-wrapper .destinyfilters > div > div:nth-child(3) {
+  background-color: aqua;
 }
