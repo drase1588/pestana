@@ -239,4 +239,16 @@ a.button.primary {
   > picture
   > img {
   background-color: chartreuse;
+  position: static;
+  display: flex;
+}
+.destinyfilters-wrapper
+  .destinyfilters
+  > div:nth-child(5)
+  > div
+  > picture
+  > img {
+  background-color: violet;
+  position: static;
+  display: flex;
 }
