@@ -223,7 +223,7 @@ a.button.primary {
   /* padding-left: 64px; */
   left: -110px;
   /* margin-left: -20px; */
-  margin-left: 5rem;
+  margin-left: 1rem;
   margin-top: 80px;
 
   /* Ui/Ui - M Medium */
@@ -256,5 +256,5 @@ a.button.primary {
   /* background-color: chartreuse; */
   position: initial;
   height: 1vh;
-  transform: translateX(-54px);
+  transform: translateX(-12px);
 }
