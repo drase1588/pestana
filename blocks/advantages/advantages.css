@@ -242,12 +242,7 @@ a.button.primary {
   position: static;
   display: flex;
 }
-.destinyfilters-wrapper
-  .destinyfilters
-  > div:nth-child(5)
-  > div
-  > picture
-  > img {
+.destinyfilters-wrapper .destinyfilters > div:nth-child(5) > div {
   background-color: violet;
   position: static;
   display: flex;
