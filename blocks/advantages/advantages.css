@@ -238,11 +238,15 @@ a.button.primary {
   margin: 10px;
 }
 
-.destinyfilters-wrapper
+/* .destinyfilters-wrapper
   .destinyfilters
   > div
   > div:nth-child(4)
   > picture
   > img {
   background-color: aqua;
+} */
+
+.destinyfilters-wrapper .destinyfilters > div:nth-child(4) > picture > img {
+  background-color: chartreuse;
 }
