@@ -142,7 +142,7 @@ a.button.primary {
   object-fit: cover;
   z-index: -1;
   /* transform: translateY(373px); */
-  transform: translateY(70px);
+  /* transform: translateY(70px); */
 }
 
 .destinyfilters-wrapper::after {
@@ -254,4 +254,6 @@ a.button.primary {
   > picture
   > img {
   background-color: chartreuse;
+  position: initial;
+  height: 1vh;
 }
