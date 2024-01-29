@@ -243,7 +243,7 @@ a.button.primary {
   display: flex;
 }
 .destinyfilters-wrapper .destinyfilters > div:nth-child(5) > div {
-  background-color: violet;
+  /* background-color: violet; */
   position: static;
   display: flex;
   /* margin-left: 1.8vh; */
