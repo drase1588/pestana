@@ -141,7 +141,8 @@ a.button.primary {
   height: auto;
   object-fit: cover;
   z-index: -1;
-  transform: translateY(373px);
+  /* transform: translateY(373px); */
+  transform: translateY(70px);
 }
 
 .destinyfilters-wrapper::after {
@@ -150,7 +151,7 @@ a.button.primary {
   top: 145vh;
   left: 10vw;
   width: 90vw;
-  height: 131vh;
+  height: 117vh;
   background: linear-gradient(
     to right,
     rgba(255, 255, 255, 1),
@@ -161,8 +162,8 @@ a.button.primary {
 
 .destinyfilters-wrapper .destinyfilters > div:nth-child(2) {
   position: relative;
-  /* margin-top: 20vh; */
-  margin-top: 48vh;
+  margin-top: 20vh;
+  /* margin-top: 48vh; */
   align-self: stretch;
   color: var(--Grayscale-Black, #000);
   font-feature-settings: "clig" off, "liga" off;
@@ -236,6 +237,21 @@ a.button.primary {
 .destinyfiltersimg > div {
   margin: 10px;
 }
-.destinyfilters-wrapper .destinyfilters > div > div:nth-child(3) {
+
+/* .destinyfilters-wrapper
+  .destinyfilters
+  > div
+  > div:nth-child(4)
+  > picture
+  > img {
   background-color: aqua;
+} */
+
+.destinyfilters-wrapper
+  .destinyfilters
+  > div:nth-child(3)
+  > div
+  > picture
+  > img {
+  background-color: chartreuse;
 }
