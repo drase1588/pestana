@@ -1,13 +1,14 @@
 const slider = document.querySelector('.slider');
 const sliderWrapper = document.querySelector('.slider-wrapper');
-const leftButton = document.querySelector('.arrows-wrapper .arrows > div:first-child');
-const rightButton = document.querySelector('.arrows-wrapper .arrows > div:nth-child(2)');
+const leftButton = document.querySelector('.arrows-wrapper > .arrows > div > div:first-child');
+const rightButton = document.querySelector('.arrows-wrapper > .arrows > div > div:nth-child(3)');
+const title = document.querySelector('.slider-wrapper .slider > div:first-child');
 
 let isDragging = false;
 let startPosition = 0;
 let currentTranslate = 0;
 let currentSlide = 0;
-let totalSlides = 0.65;
+let totalSlides = 1;
 
 slider.addEventListener('mousedown', (e) => startDragging(e));
 slider.addEventListener('mouseup', () => stopDragging());
@@ -15,16 +16,21 @@ slider.addEventListener('mouseleave', () => stopDragging());
 slider.addEventListener('mousemove', (e) => drag(e));
 
 leftButton.addEventListener('click', function() {
+    currentSlide = (currentSlide - 0.2 + totalSlides) % totalSlides;      
+    currentTranslate = -currentSlide * sliderWrapper.offsetWidth;
+    updateSlider();
     console.log("left");
-    currentSlide = (currentSlide - 0.2 + totalSlides) % totalSlides;
-    updateSlider();
-  });
-
-  rightButton.addEventListener('click', function() {
-    console.log("rigth");
-    currentSlide = Math.min(currentSlide + 0.1, totalSlides - 1);
-    updateSlider();
+    
 });
+
+rightButton.addEventListener('click', function() {
+    currentSlide = (currentSlide + 0.2) % totalSlides;
+    currentTranslate = -currentSlide * sliderWrapper.offsetWidth;
+    updateSlider();
+    console.log("right");
+});
+
+
 
 
 function startDragging(e) {
@@ -42,7 +48,7 @@ function drag(e) {
     e.preventDefault();
 
     const newX = e.clientX;
-    const translate = newX - startPosition;
+    const translate = (newX - startPosition) * 3;
 
     if (translate < 0) {
         currentTranslate = Math.max(translate, -slider.offsetWidth + sliderWrapper.offsetWidth);
@@ -58,7 +64,15 @@ function setSliderPosition() {
 }
 
 function updateSlider() {
-    const translateValue = -currentSlide * sliderWrapper.offsetWidth + 'px';
+    if (currentSlide === 0) {
+        currentTranslate = 0;
+    } else {
+        currentTranslate = -currentSlide * sliderWrapper.offsetWidth;
+    }
+
+    const translateValue = currentTranslate + 'px';
     slider.style.transform = 'translateX(' + translateValue + ')';
 }
+
+
 
