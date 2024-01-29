@@ -148,7 +148,7 @@ a.button.primary {
 .destinyfilters-wrapper::after {
   content: "";
   position: absolute;
-  top: 145vh;
+  top: 190vh;
   left: 10vw;
   width: 90vw;
   height: 117vh;
@@ -256,4 +256,5 @@ a.button.primary {
   background-color: chartreuse;
   position: initial;
   height: 1vh;
+  transform: translateX(-54px);
 }
