@@ -240,7 +240,9 @@ a.button.primary {
 .destinyfilters-wrapper
   .destinyfilters
   > div
-  > div:nth-child(4)
+  > div
+  > div
+  > div
   > div
   > picture
   > img {
