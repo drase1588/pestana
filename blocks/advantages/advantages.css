@@ -246,4 +246,7 @@ a.button.primary {
   background-color: violet;
   position: static;
   display: flex;
+  margin-left: 1.8vh;
+  margin-top: -3vh;
+  margin-bottom: 18vh;
 }
