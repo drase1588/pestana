@@ -237,6 +237,11 @@ a.button.primary {
 .destinyfiltersimg > div {
   margin: 10px;
 }
-.destinyfilters-wrapper .destinyfilters > div > div:nth-child(4) {
+.destinyfilters-wrapper
+  .destinyfilters
+  > div
+  > div:nth-child(4)
+  > picture
+  > img {
   background-color: aqua;
 }
