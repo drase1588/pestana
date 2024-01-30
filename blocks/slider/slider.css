@@ -116,7 +116,7 @@
     font-weight: lighter;
     width: 40vh;
     font-family: 'Noto Serif', serif;
-    margin-right: 20px; /* Add space to the right of h2 */
+    margin-right: 20px;
 }
 
 .default-content-wrapper h3 {
@@ -143,9 +143,6 @@
     justify-content: space-between;
     cursor: pointer; 
 }
-
-
-
 
 
 @media (max-width: 899px) {
