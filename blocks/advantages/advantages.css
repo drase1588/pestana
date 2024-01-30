@@ -238,7 +238,7 @@ a.button.primary {
   > div
   > picture
   > img {
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
   position: static;
   display: flex;
 }
