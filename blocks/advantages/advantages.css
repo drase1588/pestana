@@ -251,7 +251,7 @@ a.button.primary {
   /* margin-left: 1.8vh; */
   padding-left: 2.7%;
   margin-top: -3vh;
-  margin-bottom: 18vh;
+  margin-bottom: 35%;
   color: var(--Grayscale-Black, #000);
   text-align: center;
   font-feature-settings: "clig" off, "liga" off;
