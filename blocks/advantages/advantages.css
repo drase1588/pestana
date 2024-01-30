@@ -250,4 +250,14 @@ a.button.primary {
   padding-left: 1.6%;
   margin-top: -3vh;
   margin-bottom: 18vh;
+  color: var(--Grayscale-Black, #000);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Ui/Ui - M Medium */
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%; /* 17.5px */
 }
