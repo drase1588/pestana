@@ -6,7 +6,6 @@
   object-fit: cover;
   z-index: -1;
   /* transform: translateY(373px); */
-  /* transform: translateY(70px); */
 }
 
 .destinyfilters-wrapper::after {
