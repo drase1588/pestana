@@ -188,7 +188,8 @@ a.button.primary {
   margin-right: auto;
   margin-bottom: 25px;
   padding: 0.5rem 0;
-  gap: 4rem;
+  /* gap: 4rem; */
+  gap: 1rem;
   color: var(--Grayscale-500, #575757);
   font-family: "Noto Sans";
   font-size: 18px;
@@ -229,7 +230,8 @@ a.button.primary {
   /* background-color: chartreuse; */
   position: initial;
   height: 1vh;
-  transform: translateX(-57px);
+  /* transform: translateX(-57px); */
+  transform: translateX(-13px);
 }
 
 .destinyfilters-wrapper
