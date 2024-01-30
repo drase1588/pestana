@@ -1,16 +1,3 @@
-/* --destinyfilters-- */
-
-/* tests */
-/* .destinyfilters-wrapper .destinyfilters > div > div > picture > img {
-  position: absolute;
-  left: 0 !important;
-  width: 100%;
-  max-width: 100%;
-  height: 935px;
-  object-fit: cover;
-  z-index: -1;
-} */
-
 .destinyfilters-wrapper .destinyfilters > div > div > picture > img {
   position: absolute;
   left: 0;
@@ -18,15 +5,17 @@
   height: auto;
   object-fit: cover;
   z-index: -1;
+  /* transform: translateY(373px); */
+  /* transform: translateY(70px); */
 }
 
 .destinyfilters-wrapper::after {
   content: "";
   position: absolute;
-  top: 145vh;
+  top: 190vh;
   left: 10vw;
   width: 90vw;
-  height: 131vh;
+  height: 117vh;
   background: linear-gradient(
     to right,
     rgba(255, 255, 255, 1),
@@ -38,6 +27,7 @@
 .destinyfilters-wrapper .destinyfilters > div:nth-child(2) {
   position: relative;
   margin-top: 20vh;
+  /* margin-top: 48vh; */
   align-self: stretch;
   color: var(--Grayscale-Black, #000);
   font-feature-settings: "clig" off, "liga" off;
@@ -62,7 +52,8 @@
   margin-right: auto;
   margin-bottom: 25px;
   padding: 0.5rem 0;
-  gap: 4rem;
+  /* gap: 4rem; */
+  gap: 1rem;
   color: var(--Grayscale-500, #575757);
   font-family: "Noto Sans";
   font-size: 18px;
@@ -85,20 +76,49 @@
   margin-left: 5rem;
 }
 
-.destinyfiltersimg {
+/* .destinyfilters-wrapper
+  .destinyfilters
+  > div
+  > div:nth-child(4)
+  > picture
+  > img {
+  background-color: aqua;
+} */
+
+.destinyfilters-wrapper
+  .destinyfilters
+  > div:nth-child(3)
+  > div
+  > picture
+  > img {
+  /* background-color: chartreuse; */
+  position: initial;
+  height: 1vh;
+  /* transform: translateX(-57px); */
+  transform: translateX(-13px);
+}
+
+.destinyfilters-wrapper
+  .destinyfilters
+  > div:nth-child(4)
+  > div
+  > picture
+  > img {
+  /* background-color: chartreuse; */
+  position: static;
   display: flex;
-  flex-wrap: wrap;
-  position: relative;
-  z-index: 1;
-  margin-bottom: 500px;
+}
+.destinyfilters-wrapper .destinyfilters > div:nth-child(5) > div {
+  /* background-color: violet; */
+  position: static;
+  display: flex;
+  /* margin-left: 1.8vh; */
+  padding-left: 2.7%;
+  margin-top: -3vh;
+  margin-bottom: 35%;
   color: var(--Grayscale-Black, #000);
   text-align: center;
   font-feature-settings: "clig" off, "liga" off;
-  /* padding-left: 64px; */
-  left: -110px;
-  /* margin-left: -20px; */
-  margin-left: 5rem;
-  margin-top: 80px;
 
   /* Ui/Ui - M Medium */
   font-family: "Noto Sans";
@@ -106,8 +126,4 @@
   font-style: normal;
   font-weight: 500;
   line-height: 125%; /* 17.5px */
-}
-
-.destinyfiltersimg > div {
-  margin: 10px;
 }
