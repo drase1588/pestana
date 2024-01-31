@@ -57,7 +57,7 @@
   margin-left: 0vh;
   margin-right: auto;
   margin-bottom: 25px;
-  margin-top: -3vh;
+  margin-top: 35vh;
   padding: 0.5rem 0;
   gap: 1rem;
 
@@ -82,6 +82,7 @@
   margin-top: -3vh;
   padding: 0.5rem 0;
   gap: 1rem;
+  max-width: 24vh;
 
   color: var(--Grayscale-White, #fff);
   font-feature-settings: "clig" off, "liga" off;
@@ -92,5 +93,15 @@
   font-style: normal;
   font-weight: 300;
   line-height: 125%; /* 22.5px */
-  margin-bottom: 100vh;
+}
+
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(6) {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  border: 1px solid var(--Grayscale-White, #fff);
+  margin-bottom: 36vh;
 }
