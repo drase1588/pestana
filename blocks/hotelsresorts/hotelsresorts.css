@@ -6,3 +6,24 @@
   object-fit: cover;
   z-index: -1;
 }
+
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(2) {
+  position: relative;
+  margin-top: 20vh;
+  /* margin-top: 48vh; */
+  align-self: stretch;
+  max-width: 526px;
+  /* margin-left: -120px; */
+  margin-left: -1rem;
+  text-align: left;
+
+  color: var(--Grayscale-White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Display/Display - M */
+  font-family: "Noto Serif";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%; /* 75px */
+}
