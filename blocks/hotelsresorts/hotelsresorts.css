@@ -155,5 +155,12 @@
   position: static;
   display: flex;
   margin-top: -62vh;
-  margin-left: 280%;
+  margin-left: 275%;
+}
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) > div > picture > img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  cursor: pointer;
 }
