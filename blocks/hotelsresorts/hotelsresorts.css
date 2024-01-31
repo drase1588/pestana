@@ -10,11 +10,11 @@
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(2) {
   position: relative;
   margin-top: 0vh;
-  margin-bottom: 67vh;
+  margin-bottom: 1047vh;
   align-self: stretch;
-  max-width: 526px;
-  /* margin-left: -120px; */
-  margin-left: -1rem;
+  max-width: 567px;
+  margin-left: -4vh;
+  padding-top: 6vh;
   text-align: left;
 
   color: var(--Grayscale-White, #fff);
@@ -26,4 +26,25 @@
   font-style: normal;
   font-weight: 500;
   line-height: 125%; /* 75px */
+}
+
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(3) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -1%;
+  margin-right: auto;
+  margin-bottom: 25px;
+  padding: 0.5rem 0;
+  /* gap: 4rem; */
+
+  color: var(--Grayscale-White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Ui/Ui - L Light */
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 125%; /* 20px */
 }
