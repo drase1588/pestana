@@ -166,6 +166,11 @@
   align-self: stretch;
   color: var(--Grayscale-White, #fff);
   font-feature-settings: "clig" off, "liga" off;
+  position: absolute;
+  border-radius: 15px;
+  text-align: left;
+  margin-left: 44vh;
+  margin-top: -44vh;
 
   /* Text/Text - M Medium */
   font-family: "Noto Sans";
@@ -173,6 +178,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 125%; /* 27.5px */
+  margin-top: -36vh;
 }
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(9) {
   display: flex;
