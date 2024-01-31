@@ -83,6 +83,7 @@
   padding: 0.5rem 0;
   gap: 1rem;
   max-width: 24vh;
+  text-align: justify;
 
   color: var(--Grayscale-White, #fff);
   font-feature-settings: "clig" off, "liga" off;
@@ -114,6 +115,5 @@
   line-height: 125%; /* 20px */
   width: 8vh;
   height: 2vh;
-  text-align: justify;
   margin-bottom: 36vh;
 }
