@@ -125,7 +125,12 @@
   align-items: center;
   gap: 8px;
 } */
-
+.hotelsresorts-wrapper .hotelsresorts > div {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) > div > picture > img {
   background-color: chartreuse;
   position: static;
