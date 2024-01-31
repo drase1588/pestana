@@ -114,5 +114,6 @@
   line-height: 125%; /* 20px */
   width: 8vh;
   height: 2vh;
+  text-align: justify;
   margin-bottom: 36vh;
 }
