@@ -180,6 +180,12 @@
   line-height: 125%; /* 27.5px */
   margin-top: -36vh;
 }
+
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(8),
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(9) {
+  background-color: blueviolet;
+}
+
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(9) {
   display: flex;
   padding: 12px 24px;
