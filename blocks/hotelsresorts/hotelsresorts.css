@@ -157,7 +157,7 @@
   margin-top: -62vh;
   margin-left: 275%;
 }
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) > div > picture > img {
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
