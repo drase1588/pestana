@@ -174,21 +174,3 @@
   height: 2vh;
   margin-top: -2vh;
 }
-
-.hotelsresorts-wrapper
-  .hotelsresorts
-  > div:nth-child(8)
-  > div
-  > picture
-  > img:last-child {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  cursor: pointer;
-  background-color: brown;
-  width: 2vh;
-  left: 124vh;
-  height: 2vh;
-  margin-top: -2vh;
-}
