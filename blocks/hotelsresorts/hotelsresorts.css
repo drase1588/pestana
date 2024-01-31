@@ -181,8 +181,7 @@
   margin-top: -36vh;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(8),
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(9) {
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) {
   background-color: blueviolet;
 }
 
