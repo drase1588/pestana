@@ -125,12 +125,32 @@
   align-items: center;
   gap: 8px;
 } */
-.hotelsresorts-wrapper .hotelsresorts > div {
+/* .hotelsresorts-wrapper .hotelsresorts > div {
   position: relative;
   display: flex;
   flex-direction: row;
   gap: 30px;
+} */
+
+.hotelsresorts-wrapper .hotelsresorts > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -1%;
+  margin-right: auto;
+  margin-bottom: 25px;
+  padding: 0.5rem 0;
+  /* gap: 4rem; */
+  gap: 1rem;
+  color: var(--Grayscale-500, #575757);
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  font-feature-settings: "clig" off, "liga" off;
 }
+
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) > div > picture > img {
   background-color: chartreuse;
   position: static;
