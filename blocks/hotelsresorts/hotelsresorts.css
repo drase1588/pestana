@@ -159,7 +159,7 @@
 }
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) {
   display: flex;
-  padding: 12px 24px;
+  padding: 99px 86px;
   justify-content: center;
   align-items: center;
   gap: 8px;
@@ -178,11 +178,14 @@
   font-style: normal;
   font-weight: 500;
   line-height: 125%; /* 27.5px */
-  margin-top: -36vh;
+  margin-top: -54vh;
 }
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
+  gap: 7rem;
+  top: 439vh;
+  margin-left: 40vh;
 }
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(9) {
