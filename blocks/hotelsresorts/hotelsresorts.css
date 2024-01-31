@@ -171,14 +171,13 @@
   text-align: left;
   margin-left: 44vh;
   margin-top: -44vh;
-
-  /* Text/Text - M Medium */
   font-family: "Noto Sans";
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
-  line-height: 125%; /* 27.5px */
-  margin-top: -54vh;
+  line-height: 125%;
+  /* margin-top: -54vh; */
+  padding-top: 1vh;
 }
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) {
@@ -209,6 +208,7 @@
   /* max-width: 27vh; */
   /* text-align: justify; */
   /* width: 100px; */
+  margin-bottom: 22vh;
 }
 /* setas */
 /* .hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) {
