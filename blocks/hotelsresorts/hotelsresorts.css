@@ -190,22 +190,25 @@
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(9) {
   display: flex;
-  padding: 12px 24px;
+  padding: 13px 258px;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 120%;
   align-self: stretch;
   color: var(--Grayscale-White, #fff);
   font-feature-settings: "clig" off, "liga" off;
-
-  /* Ui/Ui - M Medium 2 */
   font-family: "Noto Sans";
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 125%; /* 17.5px */
+  line-height: 125%;
   letter-spacing: 1px;
   text-transform: uppercase;
+  margin-top: -49vh;
+  margin-left: 51vh;
+  /* max-width: 27vh; */
+  /* text-align: justify; */
+  /* width: 100px; */
 }
 /* setas */
 /* .hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) {
