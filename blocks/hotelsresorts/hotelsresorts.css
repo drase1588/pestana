@@ -152,7 +152,8 @@
 }
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) > div > picture > img {
-  background-color: chartreuse;
   position: static;
   display: flex;
+  margin-top: -62vh;
+  margin-left: 280%;
 }
