@@ -9,8 +9,8 @@
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(2) {
   position: relative;
-  margin-top: 20vh;
-  /* margin-top: 48vh; */
+  margin-top: 0vh;
+  margin-bottom: 67vh;
   align-self: stretch;
   max-width: 526px;
   /* margin-left: -120px; */
