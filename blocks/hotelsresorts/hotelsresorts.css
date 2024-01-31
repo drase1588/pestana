@@ -158,9 +158,15 @@
   margin-left: 275%;
 }
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) {
+  margin-top: -437px;
+  margin-left: 32vh;
+}
+
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) > div > picture > img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   cursor: pointer;
+  background-color: turquoise;
 }
