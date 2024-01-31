@@ -211,26 +211,6 @@
   margin-bottom: 22vh;
 }
 
-@media screen and (min-width: 1024px) {
-  .hotelsresorts-wrapper .hotelsresorts > div:nth-child(2) {
-    margin-left: -1rem;
-    font-size: 3.75rem;
-  }
-
-  .hotelsresorts-wrapper .hotelsresorts > div {
-    gap: 3.5rem;
-  }
-
-  .hotelsresorts-wrapper
-    .hotelsresorts
-    > div:nth-child(7)
-    > div
-    > picture
-    > img {
-    margin-top: -15rem;
-    margin-left: 68.75rem;
-  }
-}
 /* setas */
 /* .hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) {
   margin-top: -437px;
