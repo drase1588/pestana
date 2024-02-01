@@ -159,7 +159,7 @@
 } */
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(7),
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) {
-  position: absolute;
+  /* position: absolute; */
   color: #fff;
   font-size: 16px;
   border-radius: 15px;
@@ -184,4 +184,8 @@
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) > div > picture > img {
   background-color: tomato;
+  position: sticky;
+  transform: translateX(122px);
+  margin: 2vh;
+  width: 23vh;
 }
