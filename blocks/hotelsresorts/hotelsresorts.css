@@ -187,14 +187,14 @@
   padding-top: 1vh;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(9) {
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) {
   /* background-color: blueviolet; */
   gap: 7rem;
   top: 439vh;
   margin-left: 40vh;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(10) {
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(9) {
   display: flex;
   padding: 13px 258px;
   justify-content: center;
