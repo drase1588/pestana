@@ -1,0 +1,29 @@
+.swiper-slide {
+    background-color: yellow;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+    border: 2px solid #ddd;
+  }
+
+  .swiper-slide:hover {
+    transform: scale(1.05);
+  }
+
+  .swiper-slide:last-child {
+    border: none;
+  }
+
+  .swiper {
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* Optional: Add a shadow effect for a raised look */
+  .swiper-slide {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }

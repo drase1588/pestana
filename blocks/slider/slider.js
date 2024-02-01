@@ -16,6 +16,7 @@ slider.addEventListener('mouseup', () => stopDragging());        // Stop draggin
 slider.addEventListener('mouseleave', () => stopDragging());     // Stop dragging when the mouse leaves the slider
 slider.addEventListener('mousemove', (e) => drag(e));             // Update slider position while dragging
 
+
 // Event listeners for left and right arrow buttons
 leftButton.addEventListener('click', function() {
     // Calculate the index of the previous slide considering a smooth transition effect
@@ -28,7 +29,7 @@ leftButton.addEventListener('click', function() {
     // - Adding `totalSlides`: Ensures that the result is positive, accounting for potential negative values.
     // - Modulo `totalSlides`: Wraps around to the last slide if the result goes beyond the total number of slides.
 
-    currentSlide = (currentSlide - 0.2 + totalSlides) % totalSlides;  
+    currentSlide = (currentSlide - 2 + totalSlides) % totalSlides;  
      // Calculate the new position to display the previous slide on the screen    
     currentTranslate = -currentSlide * sliderWrapper.offsetWidth;
     updateSlider();
@@ -46,7 +47,7 @@ rightButton.addEventListener('click', function() {
     // - Modulo `totalSlides`: Ensures that the result stays within the range of available slides.
     //   If the result goes beyond the total number of slides, it wraps around to the first slide.
 
-    currentSlide = (currentSlide + 0.2) % totalSlides;
+    currentSlide = (currentSlide + 2) % totalSlides;
 
     // Calculate the new position to display the next slide on the screen
     currentTranslate = -currentSlide * sliderWrapper.offsetWidth;
