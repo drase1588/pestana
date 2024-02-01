@@ -151,11 +151,18 @@
   font-feature-settings: "clig" off, "liga" off;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) > div > picture > img {
+/* .hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) > div > picture > img {
   position: static;
   display: flex;
   margin-top: -62vh;
   margin-left: 275%;
+} */
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) > div > picture > img {
+  position: static;
+  display: flex;
+  margin-top: -59vh;
+  /* margin-left: 27vh; */
+  transform: translateX(505px);
 }
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) {
   display: flex;
@@ -180,14 +187,14 @@
   padding-top: 1vh;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) {
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(9) {
   /* background-color: blueviolet; */
   gap: 7rem;
   top: 439vh;
   margin-left: 40vh;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(9) {
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(10) {
   display: flex;
   padding: 13px 258px;
   justify-content: center;
@@ -209,6 +216,7 @@
   text-align: justify;
   width: 100px;
   margin-bottom: 22vh;
+  position: absolute;
 }
 
 /* setas */
