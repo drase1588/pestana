@@ -181,3 +181,13 @@
   object-fit: cover;
   border-radius: 15px;
 }
+
+.hotelsresorts-wrapper
+  .hotelsresorts
+  > div
+  > div:nth-child(6)
+  div
+  > picture
+  > img {
+  background-color: tomato;
+}
