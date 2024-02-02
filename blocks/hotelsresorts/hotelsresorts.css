@@ -180,15 +180,6 @@
   margin-bottom: 1vh;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(6) div,
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) div,
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) div {
-  display: flex;
-  width: 330.75px;
-  object-fit: cover;
-  border-radius: 15px;
-}
-
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) > div > picture > img {
   background-color: tomato;
   position: sticky;
@@ -206,4 +197,6 @@
   margin-left: 43vh;
   gap: 10vh;
   margin-bottom: 19vh;
+  color: #fff;
+  text-align: justify;
 }
