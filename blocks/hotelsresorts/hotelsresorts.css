@@ -34,7 +34,7 @@
   margin-left: 53vh;
   margin-right: auto;
   margin-bottom: 25px;
-  margin-top: -3vh;
+  margin-top: -6vh;
   padding: 0.5rem 0;
   gap: 1rem;
 
@@ -95,6 +95,13 @@
   font-weight: 300;
   line-height: 125%; /* 22.5px */
 }
+
+/* .hotelsresorts-wrapper .hotelsresorts > div {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+} */
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(6) {
   display: flex;
@@ -164,28 +171,40 @@
   font-size: 16px;
   border-radius: 15px;
   text-align: left;
-  margin-left: 4vh;
-  margin-top: 38vh;
+  /* margin-left: 1vh; */
+  margin-top: -89vh;
+  padding: 23vh;
+  transform: translateX(193px);
 }
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) {
-  margin-top: 40vh;
-  padding-top: 1vh;
-}
-
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(6) div,
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) div,
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) div {
-  display: flex;
-  width: 330.75px;
-  object-fit: cover;
-  border-radius: 15px;
+  transform: translateX(548px);
+  margin: 2vh;
+  width: 23vh;
+  gap: 11vh;
+  margin-left: -17vh;
+  margin-top: -62vh;
+  margin-bottom: 1vh;
 }
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) > div > picture > img {
-  background-color: tomato;
   position: sticky;
   transform: translateX(122px);
   margin: 2vh;
   width: 23vh;
+}
+
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(9) {
+  position: sticky;
+  transform: translateX(122px);
+  /* margin: -10vh; */
+  width: 23vh;
+  margin-top: -25vh;
+  margin-left: 43vh;
+  gap: 9vh;
+  margin-bottom: 19vh;
+  color: #fff;
+  text-align: justify;
+  text-transform: uppercase;
+  font-size: 14px;
 }
