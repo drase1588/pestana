@@ -21,6 +21,8 @@ loadJS('https://unpkg.com/swiper/swiper-bundle.min.js', function () {
     var swiperWrapper = document.querySelector('.swiper-wrapper');
     var swiperBlock = document.querySelector('.swiper.block');
     var swiperDiv = document.querySelector('.swiper');
+    var swiperButtonPrev = document.querySelector('.section > div:nth-child(3)');
+    var swiperButtonNext = document.querySelector('.section > div:nth-child(4)');
 
     if (swiperWrapper) {
         swiperWrapper.classList.remove('swiper-wrapper');
@@ -37,6 +39,19 @@ loadJS('https://unpkg.com/swiper/swiper-bundle.min.js', function () {
         console.log("Element with class 'swiper block' not found");
     }
 
+    if (swiperButtonPrev) {
+        swiperButtonPrev.classList.add('swiper-button-prev');
+    } else {
+        console.log("Element not found");
+    }
+
+    if (swiperButtonNext) {
+        swiperButtonNext.classList.add('swiper-button-next');
+    } else {
+        console.log("Element not found");
+    }
+
+
     if (swiperDiv) {
         console.log("found");
         var innermostDivs = swiperDiv.querySelectorAll('.swiper-wrapper > div');
@@ -52,5 +67,11 @@ loadJS('https://unpkg.com/swiper/swiper-bundle.min.js', function () {
         direction: 'horizontal',
         slidesPerView: 3.5,
         spaceBetween: 30,
+        
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          
     });
 });

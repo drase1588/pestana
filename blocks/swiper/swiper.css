@@ -103,10 +103,15 @@
 
   /* ARROWS */
 
-  .arrows-wrapper > .arrows div{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    cursor: pointer; 
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    color: #000;
+    margin-top: 295vh;
+    margin-right: 70vh;
 }
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-prev:after{
+    color: #000;
+    margin-top: 295vh;
+    margin-left: 70vh;
+}
+
