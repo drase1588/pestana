@@ -164,8 +164,10 @@
   font-size: 16px;
   border-radius: 15px;
   text-align: left;
-  margin-left: 4vh;
-  margin-top: 38vh;
+  /* margin-left: 1vh; */
+  margin-top: -89vh;
+  padding: 23vh;
+  transform: translateX(193px);
 }
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) {
@@ -183,6 +185,14 @@
 }
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) > div > picture > img {
+  background-color: tomato;
+  position: sticky;
+  transform: translateX(122px);
+  margin: 2vh;
+  width: 23vh;
+}
+
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(9) > div > picture > img {
   background-color: tomato;
   position: sticky;
   transform: translateX(122px);
