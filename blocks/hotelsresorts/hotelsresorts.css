@@ -173,6 +173,8 @@
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) {
   margin-top: 40vh;
   padding-top: 1vh;
+  margin-left: 14vh;
+  gap: 11vh;
 }
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(6) div,
@@ -192,7 +194,7 @@
   width: 23vh;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(9) > div > picture > img {
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(9) {
   background-color: tomato;
   position: sticky;
   transform: translateX(122px);
