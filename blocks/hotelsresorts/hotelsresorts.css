@@ -96,12 +96,12 @@
   line-height: 125%; /* 22.5px */
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div {
+/* .hotelsresorts-wrapper .hotelsresorts > div {
   position: relative;
   display: flex;
   flex-direction: row;
   gap: 30px;
-}
+} */
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(6) {
   display: flex;
