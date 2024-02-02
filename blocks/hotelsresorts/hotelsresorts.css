@@ -191,12 +191,14 @@
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(9) {
   position: sticky;
   transform: translateX(122px);
-  margin: 2vh;
+  /* margin: -10vh; */
   width: 23vh;
   margin-top: -25vh;
   margin-left: 43vh;
-  gap: 10vh;
+  gap: 9vh;
   margin-bottom: 19vh;
   color: #fff;
   text-align: justify;
+  text-transform: uppercase;
+  font-size: 14px;
 }
