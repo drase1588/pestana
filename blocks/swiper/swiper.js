@@ -50,7 +50,7 @@ loadJS('https://unpkg.com/swiper/swiper-bundle.min.js', function () {
 
     var swiper = new Swiper('.swiper', {
         direction: 'horizontal',
-        slidesPerView: 1,
-        spaceBetween: 20,
+        slidesPerView: 3.5,
+        spaceBetween: 30,
     });
 });

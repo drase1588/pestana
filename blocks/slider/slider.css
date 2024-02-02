@@ -103,34 +103,8 @@
 }
 
 
-/* TITLE ABOVE SLIDER */
 
-.default-content-wrapper {
-    display: flex;
-}
 
-.default-content-wrapper h2 {
-    font-size: 60px;
-    font-weight: lighter;
-    width: 40vh;
-    font-family: 'Noto Serif', serif;
-    margin-right: 20px;
-}
-
-.default-content-wrapper h3 {
-    display: flex;
-    line-height: 15px;
-    font-size: 16px;
-    height: 30px;
-    margin-top: 20vh;
-    margin-left: 2vh;
-    font-weight: lighter;
-    font-family: 'Noto Serif', serif;
-}
-
-.default-content-wrapper h3:first-of-type {
-    margin-left: 67vh; 
-}
 
   /* ARROWS */
 

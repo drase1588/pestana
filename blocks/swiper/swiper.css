@@ -1,29 +1,112 @@
 .swiper-slide {
-    background-color: yellow;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: transform 0.3s ease;
-    border: 2px solid #ddd;
-  }
-
-  .swiper-slide:hover {
-    transform: scale(1.05);
-  }
-
-  .swiper-slide:last-child {
-    border: none;
-  }
-
-  .swiper {
-    width: 600px;
-    height: 300px;
-    overflow: hidden;
     position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.swiper-slide img {
+    width: 330.75px;
+    height: 441px;
+    object-fit: cover;
+    border-radius: 15px; 
+}
+
+.swiper-slide > div:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 441px;  
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    border-radius: 15px; 
+    z-index: 1;
+}
+
+  .swiper-slide > div:nth-child(3),
+  .swiper-slide > div:nth-child(4) {
+    position: absolute; 
+    color: #fff;
+    font-size: 16px;
+    margin-left: 4vh;
+    margin-top: 38vh;
+    top: 0;
+    left: 0;
+    z-index: 2;
   }
 
-  /* Optional: Add a shadow effect for a raised look */
-  .swiper-slide {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  .swiper-slide > div:nth-child(4) {
+    margin-top: 40vh;
+    padding-top: 1vh;
   }
+
+  .swiper-slide > div:nth-child(5) {
+    position: absolute;
+    color: #000;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    border-radius: 15px;
+    margin-top: 3vh;
+    margin-left: 4vh;
+  }
+
+  .swiper-slide > div:nth-child(5):not(:empty) {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #fff;
+    border-radius: 100%;
+    height: 46px;
+    width: 46px;
+    font-weight: bold;
+  }
+
+  
+  .swiper-wrapper {
+    display: flex;
+  }
+  
+  .swiper {
+    overflow: hidden;
+  }
+  
+
+  /* TITLE ABOVE SLIDER */
+
+  .default-content-wrapper {
+    display: flex;
+}
+
+.default-content-wrapper h2 {
+    font-size: 60px;
+    font-weight: lighter;
+    width: 40vh;
+    font-family: 'Noto Serif', serif;
+    margin-right: 20px;
+}
+
+.default-content-wrapper h3 {
+    display: flex;
+    line-height: 15px;
+    font-size: 16px;
+    height: 30px;
+    margin-top: 20vh;
+    margin-left: 2vh;
+    font-weight: lighter;
+    font-family: 'Noto Serif', serif;
+}
+
+.default-content-wrapper h3:first-of-type {
+    margin-left: 67vh; 
+}
+
+
+  /* ARROWS */
+
+  .arrows-wrapper > .arrows div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    cursor: pointer; 
+}
