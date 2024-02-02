@@ -171,10 +171,14 @@
 }
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) {
-  margin-top: 40vh;
   padding-top: 1vh;
-  margin-left: 14vh;
-  gap: 11vh;
+  transform: translateX(554px);
+  margin: 2vh;
+  width: 23vh;
+  gap: 10vh;
+  margin-left: 5vh;
+  margin-top: -25vh;
+  margin-bottom: 22vh;
 }
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(6) div,
