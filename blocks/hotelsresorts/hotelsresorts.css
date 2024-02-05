@@ -202,12 +202,12 @@
   font-size: 14px;
 }
 
-@media screen and (max-width: 1233px) {
+@media screen and (min-width: 3072px) {
   .hotelsresorts-wrapper .hotelsresorts > div:nth-child(9) {
-    width: 18vw;
-    margin-top: -2vh;
-    margin-left: -3.5vw;
-    margin-bottom: 1.9vh;
-    gap: 1vw;
+    width: 6vw;
+    margin-top: -6.5vw;
+    margin-left: 11vw;
+    margin-bottom: 5vw;
+    font-size: 0.36vw;
   }
 }
