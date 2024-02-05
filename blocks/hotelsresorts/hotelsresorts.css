@@ -171,18 +171,18 @@
 }
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) {
-  transform: translateX(540px);
+  transform: translateX(536px);
   margin: 2vh;
   width: 23vh;
-  gap: 13vh;
+  gap: 8.4rem;
   margin-left: -17vh;
-  margin-top: -62vh;
-  margin-bottom: 1vh;
+  margin-top: -60vh;
+  margin-bottom: 2vh;
 }
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) > div > picture > img {
   position: sticky;
-  transform: translateX(122px);
+  transform: translateX(60px);
   margin: 2vh;
   width: 23vh;
 }
@@ -194,7 +194,7 @@
   width: 23vh;
   margin-top: -25vh;
   margin-left: 43vh;
-  gap: 11vh;
+  gap: 7rem;
   margin-bottom: 40vh;
   color: #fff;
   text-align: justify;
