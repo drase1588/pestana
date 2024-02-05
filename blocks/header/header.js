@@ -149,6 +149,7 @@ export default async function decorate(block) {
 
 window.onscroll = function() {
   const header = document.getElementsByClassName('nav-wrapper')[0];
+  header.style.boxShadow = 'none';
   const ulLi = document.querySelectorAll('.nav-wrapper .section .default-content-wrapper ul li'); 
   const peopleBackground = document.querySelector('.people-wrapper');
   const peopleImage = document.querySelector('.people-wrapper .people > div > div > picture > img');
@@ -167,6 +168,7 @@ window.onscroll = function() {
     peopleBackground.style.background = 'black';
     searchImage.style.filter = 'invert(0%)';
     searchBackground.style.background = 'black';
+    header.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)';
   } else {
     header.style.background = 'linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0))';
     ulLi.forEach(li => {

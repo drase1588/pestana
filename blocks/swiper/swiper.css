@@ -80,6 +80,7 @@
 .default-content-wrapper h2 {
     font-size: 60px;
     font-weight: lighter;
+    text-align: left;
     width: 40vh;
     font-family: 'Noto Serif', serif;
     margin-right: 20px;
@@ -103,15 +104,35 @@
 
   /* ARROWS */
 
-.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
-    color: #000;
+.swiper-container .swiper-button-next:after, 
+.swiper-container .swiper-rtl .swiper-button-prev:after {
+    background-image: url('https://poc-pestana-contentstack.vercel.app/_next/image?url=%2Ficons%2Fic-arrow-right%2FSize%3D20.svg&w=32&q=75');
+    background-size: cover;
+    color: transparent;
     margin-top: 295vh;
     margin-right: 70vh;
+    font-family: initial;
+    font-size: large;
+    text-transform: initial !important;
+    letter-spacing: initial;
+    font-variant: initial;
+    line-height: 1.6;
 }
 
-.swiper-button-prev:after, .swiper-rtl .swiper-button-prev:after{
-    color: #000;
+.swiper-container .swiper-button-prev:after, 
+.swiper-container .swiper-rtl .swiper-button-prev:after {
+    background-image: url('https://poc-pestana-contentstack.vercel.app/_next/image?url=%2Ficons%2Fic-arrow-left%2FSize%3D20.svg&w=32&q=75');
+    background-size: cover;
+    color: transparent;
     margin-top: 295vh;
     margin-left: 70vh;
+    font-family: initial;
+    font-size: large;
+    text-transform: initial !important;
+    letter-spacing: initial;
+    font-variant: initial;
+    line-height: 1.6;
 }
+
+
 
