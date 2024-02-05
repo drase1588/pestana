@@ -136,3 +136,10 @@
 
 
 
+
+@media (max-width: 899px) {
+    .swiper-slide img {
+        max-width: 100% !important;
+    }
+    
+ }
