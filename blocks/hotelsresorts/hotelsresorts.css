@@ -50,14 +50,14 @@
   /* margin-bottom: 100vh; */
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(4) {
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(4) > div:nth-child(1) {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-left: 0vh;
   margin-right: auto;
   margin-bottom: 25px;
-  margin-top: 35vh;
+  margin-top: 167px;
   padding: 0.5rem 0;
   gap: 1rem;
 
@@ -72,13 +72,13 @@
   line-height: 125%; /* 37.5px */
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(5) {
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(4) > div:nth-child(2) {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 0vh;
+  margin-left: -1081px;
   margin-right: auto;
-  margin-bottom: 25px;
+  margin-bottom: -334px;
   margin-top: -3vh;
   padding: 0.5rem 0;
   gap: 1rem;
@@ -96,31 +96,11 @@
   line-height: 125%; /* 22.5px */
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(6) {
-  /* display: flex;
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(4) > div:nth-child(3) {
+  display: flex;
   padding: 12px 24px;
   justify-content: center;
   align-items: center;
-  gap: 8px;
-  border-radius: 100px;
-  border: 1px solid var(--Grayscale-White, #fff);
-  color: var(--Grayscale-White, #fff);
-  font-feature-settings: "clig" off, "liga" off;
-
-  font-family: "Noto Sans";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-  width: 80px;
-  height: 20px;
-  margin-bottom: 360px; */
-
-  display: flex;
-  padding: 12px 24px;
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* gap: 8px; */
   border-radius: 100px;
   border: 1px solid var(--Grayscale-White, #fff);
   color: var(--Grayscale-White, #fff);
@@ -132,30 +112,14 @@
   line-height: 125%;
   width: 59px;
   height: 21px;
-  margin-bottom: -7vh;
-  margin-left: 10px;
+  margin-bottom: -59vh;
+  transform: translateX(-1026px);
 }
-/* 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) {
-  display: flex;
-  padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-} */
-/* .hotelsresorts-wrapper .hotelsresorts > div {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  gap: 30px;;
-} */
 
 .hotelsresorts-wrapper .hotelsresorts > div {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: auto; /* Removido o valor negativo */
-  margin-right: auto;
   margin-bottom: 25px;
   padding: 0.5rem 0;
   gap: 1rem;
@@ -168,19 +132,19 @@
   font-feature-settings: "clig" off, "liga" off;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) {
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(5) {
   position: relative;
   background-color: transparent;
   margin-left: 556px;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) > div > picture > img {
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(5) > div > picture > img {
   width: 192px;
   height: 278px;
   top: -285px;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) > div:nth-child(2) {
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(5) > div:nth-child(2) {
   position: relative;
   transform: translateX(-1px);
   bottom: 136px;
@@ -188,7 +152,7 @@
   color: white;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) > div:nth-child(3) {
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(5) > div:nth-child(3) {
   position: absolute;
   bottom: 63px;
   left: 35px;
@@ -199,20 +163,20 @@
   max-width: 34px;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) {
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(6) {
   position: relative;
   background-color: transparent;
   margin-left: 501px;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) > div > picture > img {
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(6) > div > picture > img {
   width: 192px;
   height: 278px;
   top: -345px;
   transform: translateX(268px);
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) > div:nth-child(2) {
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(6) > div:nth-child(2) {
   position: relative;
   transform: translateX(-1px);
   bottom: 200px;
@@ -220,7 +184,7 @@
   color: white;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(8) > div:nth-child(3) {
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(6) > div:nth-child(3) {
   position: absolute;
   bottom: 128px;
   left: 318px;
@@ -231,20 +195,20 @@
   max-width: 34px;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(9) {
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) {
   position: relative;
   background-color: transparent;
   margin-left: 488px;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(9) > div > picture > img {
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) > div > picture > img {
   width: 192px;
   height: 278px;
   top: -410px;
   transform: translateX(494px);
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(9) > div:nth-child(2) {
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) > div:nth-child(2) {
   position: relative;
   transform: translateX(-1px);
   bottom: 262px;
@@ -252,10 +216,10 @@
   color: white;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(9) > div:nth-child(3) {
+.hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) > div:nth-child(3) {
   position: absolute;
   bottom: 195px;
-  left: 546px;
+  left: 538px;
   transform: translateX(-50%);
   color: white;
   padding: 5px;
