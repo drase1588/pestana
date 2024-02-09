@@ -157,6 +157,10 @@
   bottom: 46px;
   left: 3px;
   color: white;
+  font-family: "Noto Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
 }
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(5) > div:nth-child(3) {
@@ -168,6 +172,7 @@
   padding: 5px;
   font-size: 1rem;
   max-width: 34px;
+  text-transform: uppercase;
 }
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(6) {
@@ -189,6 +194,10 @@
   bottom: 152px;
   left: 284px;
   color: white;
+  font-family: "Noto Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
 }
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(6) > div:nth-child(3) {
@@ -200,6 +209,7 @@
   padding: 5px;
   font-size: 1rem;
   max-width: 34px;
+  text-transform: uppercase;
 }
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) {
@@ -222,6 +232,10 @@
   bottom: 262px;
   left: 504px;
   color: white;
+  font-family: "Noto Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
 }
 
 .hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) > div:nth-child(3) {
@@ -233,4 +247,5 @@
   padding: 5px;
   font-size: 1rem;
   max-width: 34px;
+  text-transform: uppercase;
 }
