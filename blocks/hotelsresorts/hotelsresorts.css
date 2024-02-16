@@ -1,4 +1,4 @@
-.hotelsresorts-wrapper .hotelsresorts > div > div > picture > img {
+.hotelsresorts-container .swiper-wrapper .swiper-slide > div > picture > img {
   position: absolute;
   left: 0;
   width: 100%;
@@ -7,7 +7,8 @@
   z-index: -1;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(2) {
+.hotelsresorts-container .swiper-wrapper .swiper-slide:nth-child(2) {
+  background-color: #69ff47;
   position: relative;
   margin-top: 0vh;
   align-self: stretch;
@@ -27,7 +28,8 @@
   line-height: 125%; /* 75px */
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(3) {
+.hotelsresorts-container .swiper-wrapper .swiper-slide:nth-child(3) {
+  background-color: #ff6347;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -51,13 +53,11 @@
   /* margin-bottom: 100vh; */
 }
 
-@media (min-width: 1200px) {
-  .hotelsresorts-wrapper .hotelsresorts > div:nth-child(3) {
-    margin-bottom: 220px;
-  }
-}
-
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(4) > div:nth-child(1) {
+.hotelsresorts-container
+  .swiper-wrapper
+  .swiper-slide:nth-child(4)
+  > div:nth-child(1) {
+  background-color: yellow;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -79,7 +79,10 @@
   line-height: 125%; /* 37.5px */
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(4) > div:nth-child(2) {
+.hotelsresorts-container
+  .swiper-wrapper
+  .swiper-slide:nth-child(4)
+  > div:nth-child(2) {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -103,7 +106,10 @@
   line-height: 125%; /* 22.5px */
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(4) > div:nth-child(3) {
+.hotelsresorts-container
+  .swiper-wrapper
+  .swiper-slide:nth-child(4)
+  > div:nth-child(3) {
   display: flex;
   padding: 12px 24px;
   justify-content: center;
@@ -123,7 +129,7 @@
   transform: translateX(-1078px);
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div {
+.swiper-wrapper .swiper-slide > div {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -139,19 +145,19 @@
   font-feature-settings: "clig" off, "liga" off;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(5) {
+.swiper-wrapper .swiper-slide > div:nth-child(5) {
   position: relative;
   background-color: transparent;
   margin-left: 556px;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(5) > div > picture > img {
+.swiper-wrapper .swiper-slide > div:nth-child(5) > div > picture > img {
   width: 192px;
   height: 278px;
   top: -192px;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(5) > div:nth-child(2) {
+.swiper-wrapper .swiper-slide > div:nth-child(5) > div:nth-child(2) {
   position: relative;
   transform: translateX(-1px);
   bottom: 46px;
@@ -163,7 +169,7 @@
   font-weight: 500;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(5) > div:nth-child(3) {
+.swiper-wrapper .swiper-slide > div:nth-child(5) > div:nth-child(3) {
   position: absolute;
   bottom: -22px;
   left: 35px;
@@ -175,20 +181,20 @@
   text-transform: uppercase;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(6) {
+.swiper-wrapper .swiper-slide > div:nth-child(6) {
   position: relative;
   background-color: transparent;
   margin-left: 501px;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(6) > div > picture > img {
+.swiper-wrapper .swiper-slide > div:nth-child(6) > div > picture > img {
   width: 192px;
   height: 278px;
   top: -301px;
   transform: translateX(268px);
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(6) > div:nth-child(2) {
+.swiper-wrapper .swiper-slide > div:nth-child(6) > div:nth-child(2) {
   position: relative;
   transform: translateX(-1px);
   bottom: 152px;
@@ -200,7 +206,7 @@
   font-weight: 500;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(6) > div:nth-child(3) {
+.swiper-wrapper .swiper-slide > div:nth-child(6) > div:nth-child(3) {
   position: absolute;
   bottom: 85px;
   left: 318px;
@@ -212,21 +218,21 @@
   text-transform: uppercase;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) {
+.swiper-wrapper .swiper-slide > div:nth-child(7) {
   position: relative;
   background-color: transparent;
   margin-left: 488px;
   margin-bottom: 218px;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) > div > picture > img {
+.swiper-wrapper .swiper-slide > div:nth-child(7) > div > picture > img {
   width: 192px;
   height: 278px;
   top: -410px;
   transform: translateX(494px);
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) > div:nth-child(2) {
+.swiper-wrapper .swiper-slide > div:nth-child(7) > div:nth-child(2) {
   position: relative;
   transform: translateX(-1px);
   bottom: 262px;
@@ -238,7 +244,7 @@
   font-weight: 500;
 }
 
-.hotelsresorts-wrapper .hotelsresorts > div:nth-child(7) > div:nth-child(3) {
+.swiper-wrapper .swiper-slide > div:nth-child(7) > div:nth-child(3) {
   position: absolute;
   bottom: 195px;
   left: 538px;
@@ -249,3 +255,71 @@
   max-width: 34px;
   text-transform: uppercase;
 }
+
+/* .swiper-wrapper {
+  background-color: yellow;
+} */
+/* .swiper-wrapper > div:nth-child(1) {
+  background-color: aqua;
+} */
+.section.swiper-container.columns-container > div:nth-of-type(3) {
+  background-color: #69ff47;
+}
+.section.swiper-container.columns-container > div:nth-of-type(2) {
+  background-color: #ff6347;
+  background-image: url("https://poc-pestana-contentstack.vercel.app/_next/image?url=%2Ficons%2Fic-arrow-right%2FSize%3D20.svg&w=32&q=75");
+  background-size: cover;
+  color: transparent;
+  margin-top: 310vh;
+  margin-right: 70vh;
+  font-family: initial;
+  font-size: large;
+  text-transform: initial !important;
+  letter-spacing: initial;
+  font-variant: initial;
+  line-height: 1.6;
+}
+/* .section.swiper-container.columns-container > div:nth-of-type(3) {
+  background-color: #69ff47;
+  background-image: url("https://poc-pestana-contentstack.vercel.app/_next/image?url=%2Ficons%2Fic-arrow-left%2FSize%3D20.svg&w=32&q=75");
+  background-size: cover;
+  color: transparent;
+  margin-top: 295vh;
+  margin-left: 70vh;
+  font-family: initial;
+  font-size: large;
+  text-transform: initial !important;
+  letter-spacing: initial;
+  font-variant: initial;
+  line-height: 1.6;
+} */
+
+/* .swiper-container .swiper-button-next:after,
+.swiper-container .swiper-rtl .swiper-button-prev:after {
+  background-image: url("https://poc-pestana-contentstack.vercel.app/_next/image?url=%2Ficons%2Fic-arrow-right%2FSize%3D20.svg&w=32&q=75");
+  background-size: cover;
+  color: transparent;
+  margin-top: 310vh;
+  margin-right: 70vh;
+  font-family: initial;
+  font-size: large;
+  text-transform: initial !important;
+  letter-spacing: initial;
+  font-variant: initial;
+  line-height: 1.6;
+} */
+
+/* .swiper-container .swiper-button-prev:after,
+.swiper-container .swiper-rtl .swiper-button-prev:after {
+  background-image: url("https://poc-pestana-contentstack.vercel.app/_next/image?url=%2Ficons%2Fic-arrow-left%2FSize%3D20.svg&w=32&q=75");
+  background-size: cover;
+  color: transparent;
+  margin-top: 295vh;
+  margin-left: 70vh;
+  font-family: initial;
+  font-size: large;
+  text-transform: initial !important;
+  letter-spacing: initial;
+  font-variant: initial;
+  line-height: 1.6;
+} */
