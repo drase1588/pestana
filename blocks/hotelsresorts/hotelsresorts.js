@@ -1,65 +1,97 @@
-var swiperWrapper = document.querySelector(".hotelsresorts-wrapper");
-var swiperBlock = document.querySelector(".hotelsresorts.block");
-var swiperDiv = document.querySelector(".hotelsresorts");
-var swiperButtonPrev = document.querySelector(".section > div:nth-child(3)");
-var swiperButtonNext = document.querySelector(".section > div:nth-child(4)");
+//container principal e o elemento 'hotelsresorts block'
+const hotelsResortsContainer = document.querySelector(
+  ".hotelsresorts-container"
+);
 
-if (swiperWrapper) {
-  swiperWrapper.classList.remove("hotelsresorts-wrapper");
-  swiperWrapper.classList.add("swiper");
-} else {
-  console.log("Element with class 'hotelsresorts-wrapper' not found");
-}
+//elementos que queremos mover
+const columnsWrapper = document.querySelector(".columns-wrapper");
 
-if (swiperBlock) {
-  swiperBlock.classList.remove("block");
-  swiperBlock.classList.remove("hotelsresorts");
-  swiperBlock.classList.add("swiper-wrapper");
-} else {
-  console.log("Element with class 'hotelsresorts block' not found");
-}
+//move os elementos para o final do 'hotelsresorts-container'
+hotelsResortsContainer.insertAdjacentElement("afterend", columnsWrapper);
 
-if (swiperButtonPrev) {
-  swiperButtonPrev.classList.add("swiper-button-prev");
-} else {
-  console.log("Element not found");
-}
+const hotelsResortsBlock = document.querySelector(".hotelsresorts.block");
 
-if (swiperButtonNext) {
-  swiperButtonNext.classList.add("swiper-button-next");
-} else {
-  console.log("Element not found");
-}
+//cria o swiper-container e os elementos relacionados
+const swiperContainer = document.createElement("div");
+swiperContainer.className =
+  "swiper swiper-initialized swiper-horizontal swiper-android swiper-backface-hidden swiper-container";
 
-if (swiperDiv) {
-  console.log("found");
-  var innermostDivs = swiperDiv.querySelectorAll(".swiper-wrapper > div");
+const swiperWrapper = document.createElement("div");
+swiperWrapper.className = "swiper-wrapper";
 
-  innermostDivs.forEach(function (div) {
-    div.classList.add("swiper-slide");
+//cria uma nova div para 'hotelsresorts block' fora do swiper-slide
+const newHotelsResortsBlock = document.createElement("div");
+newHotelsResortsBlock.className = "hotelsresorts block";
+
+//move todos os elementos de 'hotelsresorts block', exceto os últimos 3 divs, para o novo 'hotelsresorts block'
+Array.from(hotelsResortsBlock.children)
+  .slice(0, -6)
+  .forEach((child) => {
+    newHotelsResortsBlock.appendChild(child.cloneNode(true));
   });
-} else {
-  console.log("not found");
-}
 
-var swiper = new Swiper(".swiper", {
-  direction: "horizontal",
-  spaceBetween: 30,
+//add o novo 'hotelsresorts block' ao DOM, antes do swiper-container
+hotelsResortsContainer.insertBefore(
+  newHotelsResortsBlock,
+  hotelsResortsContainer.firstChild
+);
 
+//add os últimos 3 divs do original 'hotelsresorts block' ao swiper-wrapper como slides
+Array.from(hotelsResortsBlock.children)
+  .slice(-6)
+  .forEach((child) => {
+    const slide = document.createElement("div");
+    slide.className = "swiper-slide";
+    slide.appendChild(child.cloneNode(true));
+    swiperWrapper.appendChild(slide);
+  });
+
+//delete o original 'hotelsresorts block'
+hotelsResortsBlock.remove();
+
+//add o swiper-wrapper ao swiper-container
+swiperContainer.appendChild(swiperWrapper);
+
+//insere o swiper-container no DOM
+hotelsResortsContainer.appendChild(swiperContainer);
+
+//add botões de navegação, se necessário
+const swiperButtonPrev = document.createElement("div");
+swiperButtonPrev.className = "swiper-button-prev";
+swiperContainer.appendChild(swiperButtonPrev);
+
+const swiperButtonNext = document.createElement("div");
+swiperButtonNext.className = "swiper-button-next";
+swiperContainer.appendChild(swiperButtonNext);
+
+const swiper = new Swiper(swiperContainer, {
+  spaceBetween: 10,
+  loop: true,
+  watchOverflow: true,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-
   breakpoints: {
-    0: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    480: {
       slidesPerView: 2,
+      spaceBetween: 10,
     },
-    700: {
-      slidesPerView: 2.5,
+    640: {
+      slidesPerView: 3,
+      spaceBetween: 10,
     },
-    970: {
-      slidesPerView: 3.5,
+  },
+  on: {
+    init: function () {
+      this.el.style.width = "40%"; //largura do container Swiper
+      this.el.style.marginLeft = "auto";
+      this.el.style.marginRight = "15vh";
+      this.el.style.overflow = "hidden";
     },
   },
 });
