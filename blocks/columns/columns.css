@@ -19,8 +19,8 @@
   display: block;
 }
 
-#thetimeofyourlife{
-  font-family: 'Noto Serif', serif;
+#thetimeofyourlife {
+  font-family: "Noto Serif", serif;
   line-height: 1.25;
   margin: 0;
   font-weight: normal;
@@ -28,8 +28,8 @@
   margin-bottom: 4%;
 }
 
-#mantemos-o-contacto-subscreva-a-nossa-newsletter{
-  font-family: 'Noto Serif', serif;
+/* #mantemos-o-contacto-subscreva-a-nossa-newsletter {
+  font-family: "Noto Serif", serif;
   line-height: 1.25;
   font-weight: normal;
   font-size: 1.5em;
@@ -37,15 +37,62 @@
   width: 15em;
   display: block;
   margin: 0 auto;
+} */
+.columns div:nth-of-type(2) > div {
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
 }
 
+.columns div:nth-of-type(3) > div {
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 30px;
+}
 
+.columns div:nth-of-type(4) {
+  margin-bottom: 30px;
+}
+
+.columns div:nth-of-type(4) div:nth-child(1) {
+  display: flex;
+  width: 100%;
+  order: 1;
+  margin: 0 12px;
+  flex-direction: row;
+}
+.columns div:nth-of-type(4) div:nth-child(2) {
+  display: flex;
+  width: 100%;
+  order: 1;
+  margin: 0 12px;
+  flex-direction: row;
+}
+.columns div:nth-of-type(4) div:nth-child(3) {
+  display: flex;
+  width: 100%;
+  order: 1;
+  margin: 0 12px;
+  flex-direction: row;
+}
+.columns div:nth-of-type(4) div:nth-child(4) {
+  display: flex;
+  width: 100%;
+  order: 1;
+  margin: 0 12px;
+  flex-direction: row;
+}
 a.button {
-  background-color: transparent !important; 
-  color: #6b6868 !important; 
+  background-color: transparent !important;
+  color: #6b6868 !important;
 }
-
-
 
 @media (min-width: 900px) {
   .columns > div {
