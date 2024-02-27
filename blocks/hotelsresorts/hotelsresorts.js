@@ -1,15 +1,26 @@
-//container principal e o elemento 'hotelsresorts block'
+//seleciona o container principal
 const hotelsResortsContainer = document.querySelector(
   ".hotelsresorts-container"
 );
-
 //elementos que queremos mover
 const columnsWrapper = document.querySelector(".columns-wrapper");
 
 //move os elementos para o final do 'hotelsresorts-container'
 hotelsResortsContainer.insertAdjacentElement("afterend", columnsWrapper);
 
+//seleciona bloco para manipular
 const hotelsResortsBlock = document.querySelector(".hotelsresorts.block");
+
+//novo wrapper para os divs fora do Swiper
+const defaultContentWrapper = document.createElement("div");
+defaultContentWrapper.className = "default-content-wrapper";
+
+//move divs -> default-content-wrapper
+Array.from(hotelsResortsBlock.children)
+  .slice(0, 4)
+  .forEach((child) => {
+    defaultContentWrapper.appendChild(child);
+  });
 
 //cria o swiper-container e os elementos relacionados
 const swiperContainer = document.createElement("div");
@@ -19,43 +30,25 @@ swiperContainer.className =
 const swiperWrapper = document.createElement("div");
 swiperWrapper.className = "swiper-wrapper";
 
-//cria uma nova div para 'hotelsresorts block' fora do swiper-slide
-const newHotelsResortsBlock = document.createElement("div");
-newHotelsResortsBlock.className = "hotelsresorts block";
-
-//move todos os elementos de 'hotelsresorts block', exceto os últimos 3 divs, para o novo 'hotelsresorts block'
-Array.from(hotelsResortsBlock.children)
-  .slice(0, -6)
-  .forEach((child) => {
-    newHotelsResortsBlock.appendChild(child.cloneNode(true));
-  });
-
-//add o novo 'hotelsresorts block' ao DOM, antes do swiper-container
-hotelsResortsContainer.insertBefore(
-  newHotelsResortsBlock,
-  hotelsResortsContainer.firstChild
-);
-
-//add os últimos 3 divs do original 'hotelsresorts block' ao swiper-wrapper como slides
-Array.from(hotelsResortsBlock.children)
-  .slice(-6)
-  .forEach((child) => {
-    const slide = document.createElement("div");
-    slide.className = "swiper-slide";
-    slide.appendChild(child.cloneNode(true));
-    swiperWrapper.appendChild(slide);
-  });
-
-//delete o original 'hotelsresorts block'
-hotelsResortsBlock.remove();
+//add os elementos restantes do 'hotelsresorts block' como slides do Swiper
+Array.from(hotelsResortsBlock.children).forEach((child) => {
+  const slide = document.createElement("div");
+  slide.className = "swiper-slide";
+  slide.appendChild(child);
+  swiperWrapper.appendChild(slide);
+});
 
 //add o swiper-wrapper ao swiper-container
 swiperContainer.appendChild(swiperWrapper);
 
-//insere o swiper-container no DOM
+//del o antigo 'hotelsresorts block'
+hotelsResortsBlock.remove();
+
+//insere o 'defaultContentWrapper' e o 'swiperContainer' no DOM
+hotelsResortsContainer.appendChild(defaultContentWrapper);
 hotelsResortsContainer.appendChild(swiperContainer);
 
-//add botões de navegação, se necessário
+//botões de navegação ao swiper-container
 const swiperButtonPrev = document.createElement("div");
 swiperButtonPrev.className = "swiper-button-prev";
 swiperContainer.appendChild(swiperButtonPrev);
@@ -64,6 +57,7 @@ const swiperButtonNext = document.createElement("div");
 swiperButtonNext.className = "swiper-button-next";
 swiperContainer.appendChild(swiperButtonNext);
 
+//inicializa o Swiper
 const swiper = new Swiper(swiperContainer, {
   spaceBetween: 10,
   loop: true,
