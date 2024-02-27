@@ -1,19 +1,4 @@
-.hotelsresorts.block picture img {
-  background-color: aqua;
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  z-index: -1;
-}
-
-.hotelsresorts-container
-  > .hotelsresorts.block
-  > div:first-child
-  > picture
-  > div
-  > img {
+.default-content-wrapper > div > div > picture > img {
   background-color: aqua;
   position: absolute;
   left: 0;
@@ -24,9 +9,10 @@
 }
 
 /* title */
-.section.hotelsresorts-container .hotelsresorts.block > div:nth-child(2) {
+.default-content-wrapper > div:nth-child(2) > div {
+  /* .section.hotelsresorts-container .hotelsresorts.block > div:nth-child(2) { */
   position: relative;
-  margin-top: -76vh;
+  margin-top: 10px;
   align-self: stretch;
   margin-left: 325px;
   transform: translateX(-345px);
@@ -47,14 +33,14 @@
   overflow-wrap: break-word;
 }
 /* filters */
-.section.hotelsresorts-container .hotelsresorts.block > div:nth-child(3) {
+.default-content-wrapper > div:nth-child(3) {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: -32vh;
+  margin-left: -1137px;
   margin-right: auto;
-  margin-bottom: 124px;
-  margin-top: -4vh;
+  margin-bottom: -11px;
+  margin-top: 49px;
   padding: 0.5rem 52px;
   gap: 1rem;
   transform: translateX(846px);
@@ -68,21 +54,17 @@
 }
 
 @media (min-width: 1200px) {
-  .swiper-container .swiper-wrapper div:nth-child(3) {
-    margin-bottom: 220px;
+  .default-content-wrapper > div:nth-child(3) {
+    margin-bottom: 22px;
   }
 }
-
-.section.hotelsresorts-container
-  .hotelsresorts.block
-  div:nth-child(4)
-  > div:nth-child(1) {
+.default-content-wrapper > div:nth-child(4) > div:nth-child(1) {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 10px;
+  margin-left: -1211px;
   margin-right: auto;
-  margin-top: 236px;
+  margin-top: 554px;
   padding: 0.5rem 0;
   gap: 1rem;
 
@@ -95,14 +77,11 @@
   font-weight: 400;
   line-height: 125%;
 }
-.section.hotelsresorts-container
-  .hotelsresorts.block
-  div:nth-child(4)
-  > div:nth-child(2) {
+.default-content-wrapper > div:nth-child(4) > div:nth-child(2) {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 13px;
+  margin-left: -1211px;
   margin-right: auto;
   margin-bottom: -111px;
   margin-top: 12vh;
@@ -120,10 +99,7 @@
   transform: translateY(-117px);
 }
 /* button */
-.section.hotelsresorts-container
-  .hotelsresorts.block
-  div:nth-child(4)
-  > div:nth-child(3) {
+.default-content-wrapper > div:nth-child(4) > div:nth-child(3) {
   display: flex;
   padding: 12px 24px;
   justify-content: center;
@@ -139,7 +115,7 @@
   line-height: 125%;
   width: 59px;
   height: 21px;
-  margin-left: 15px;
+  margin-left: -1190px;
   margin-top: -8px;
   margin-bottom: -218px;
 }
@@ -151,7 +127,10 @@
   height: auto;
   object-fit: cover;
   padding: 0;
+  margin-top: 2px;
+  margin-bottom: 10px;
 }
+
 .swiper-slide > div > div:nth-child(2) {
   margin-left: 21px;
   margin-top: -155px;
@@ -170,7 +149,8 @@
 
 .swiper-slide > div > div:nth-child(3) {
   margin-left: 21px;
-  margin-top: -82px;
+  margin-top: -70px;
+  margin-bottom: 45px;
   color: white;
   padding: 5px;
   font-size: 1rem;
@@ -184,8 +164,8 @@
   background-image: url(https://poc-pestana-contentstack.vercel.app/_next/image?url=%2Ficons%2Fic-arrow-right%2FSize%3D20.svg&w=32&q=75);
   background-size: cover;
   color: transparent;
-  margin-top: -105px;
-  margin-right: 12px;
+  margin-top: 240px;
+  margin-right: -19px;
   font-family: initial;
   font-size: large;
   text-transform: initial !important;
@@ -198,7 +178,7 @@
   background-image: url(https://poc-pestana-contentstack.vercel.app/_next/image?url=%2Ficons%2Fic-arrow-left%2FSize%3D20.svg&w=32&q=75);
   background-size: cover;
   color: transparent;
-  margin-top: -105px;
+  margin-top: 240px;
   margin-left: -19px;
   font-family: initial;
   font-size: large;
