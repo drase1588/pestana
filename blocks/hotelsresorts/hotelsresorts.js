@@ -4,10 +4,16 @@ const hotelsResortsContainer = document.querySelector(
 );
 //elementos que queremos mover
 const columnsWrapper = document.querySelector(".columns-wrapper");
+const naturalresourcessWrapper = document.querySelector(
+  ".naturalresources-wrapper"
+);
 
 //move os elementos para o final do 'hotelsresorts-container'
 hotelsResortsContainer.insertAdjacentElement("afterend", columnsWrapper);
-
+hotelsResortsContainer.insertAdjacentElement(
+  "afterend",
+  naturalresourcessWrapper
+);
 //seleciona bloco para manipular
 const hotelsResortsBlock = document.querySelector(".hotelsresorts.block");
 
