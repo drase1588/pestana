@@ -1,4 +1,46 @@
-.advantage-caption {
+.advantages-wrapper .advantages > div:nth-child(1) > div {
+  margin-top: -185px;
+  transform: translateX(692px);
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #989898;
+  margin-bottom: 13px;
+  margin-left: -194px;
+}
+.advantages-wrapper .advantages > div:nth-child(2) > div {
+  margin-top: -149px;
+  margin-right: -847px;
+  font-family: "Noto Serif", serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-align: center;
+  font-variation-settings: "wdth" 100, "CTGR" 46;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.advantages-wrapper .advantages > div:nth-child(7) > div {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 100px;
+  border: 1px solid;
+  gap: 8px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  text-overflow: inherit;
+  color: #000000;
+
+  margin-top: 236px;
+  margin-left: -877px;
+}
+/* .advantage-caption {
   color: var(--Grayscale-Black, #000);
   text-align: center;
   font-feature-settings: "clig" off, "liga" off;
@@ -8,7 +50,7 @@
   font-weight: 300;
   line-height: 125%;
   margin-top: 10px;
-}
+} */
 /* .advantages {
   display: flex;
   justify-content: center;
@@ -21,8 +63,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   text-align: center;
+  transform: translateX(-110px);
 
   color: var(--Grayscale-Black, #000);
   text-align: center;
