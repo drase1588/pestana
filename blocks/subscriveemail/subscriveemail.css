@@ -1,0 +1,59 @@
+.subscriveemail-wrapper > div > div:nth-child(1) {
+  font-family: Noto Serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-align: center;
+  font-variation-settings: "wdth" 100, "CTGR" 46;
+  margin-top: 90px;
+}
+
+.subscriveemail-wrapper > div > div:nth-child(2) {
+  font-family: Noto Serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-align: center;
+  font-variation-settings: "wdth" 100, "CTGR" 46;
+  margin-bottom: 40px;
+}
+
+.subscriveemail-wrapper > div > div:nth-child(3) {
+  display: flex;
+  margin-left: 14px;
+  border-bottom: 1px solid rgb(87, 87, 87);
+  margin-bottom: 65px;
+  width: 539px;
+  margin-left: 389px;
+  transform: translateX(250px);
+}
+
+.subscriveemail-wrapper > div > div:nth-child(3) > div:nth-child(1) {
+  margin-left: 3px;
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #575757;
+}
+.subscriveemail-wrapper > div > div:nth-child(3) > div:nth-child(2) {
+  margin-left: 283px;
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #575757;
+}
+
+.subscriveemail-wrapper > div > div:nth-child(3) > div:nth-child(3) {
+  width: 16px;
+  height: 16px;
+  margin-top: -10px;
+  margin-left: 7px;
+}

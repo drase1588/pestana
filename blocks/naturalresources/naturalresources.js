@@ -7,13 +7,19 @@ const columnsWrapper = document.querySelector(".columns-wrapper");
 const naturalresourcessWrapper = document.querySelector(
   ".naturalresources-wrapper"
 );
+const subscriveemailWrapper = document.querySelector(".subscriveemail-wrapper");
 
 //move os elementos para o final do 'naturalresources-container'
+naturalresourcesContainer.insertAdjacentElement(
+  "afterend",
+  subscriveemailWrapper
+);
 naturalresourcesContainer.insertAdjacentElement("afterend", columnsWrapper);
 naturalresourcesContainer.insertAdjacentElement(
   "afterend",
   naturalresourcessWrapper
 );
+
 //seleciona bloco para manipular
 const naturalresourcesBlock = document.querySelector(".naturalresources.block");
 
