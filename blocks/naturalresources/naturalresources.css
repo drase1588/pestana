@@ -10,9 +10,9 @@
   font-variation-settings: "wdth" 100, "CTGR" 50;
   width: 490px;
   height: 189px;
-  margin-top: 280px;
+  margin-top: 365px;
   margin-left: 82px;
-  margin-bottom: 158px;
+  margin-bottom: 255px;
 }
 .naturalresources-wrapper
   .defaultnaturalresources-content-wrapper
@@ -29,6 +29,51 @@
   margin-bottom: -390px;
   margin-left: 82px;
 }
+.naturalresources-wrapper
+  .defaultnaturalresources-content-wrapper
+  > div:first-child
+  > div
+  > table {
+  margin-top: 441px;
+}
+/* .naturalresources-wrapper
+  .defaultnaturalresources-content-wrapper
+  > div:first-child
+  > div
+  > table
+  > tbody
+  > tr:nth-child(1) {
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 63px;
+  letter-spacing: 0px;
+  text-align: left;
+  font-variation-settings: "wdth" 100, "CTGR" 50;
+  width: 490px;
+  height: 189px;
+  margin-top: 280px;
+  margin-left: 82px;
+  margin-bottom: 158px;
+}
+.naturalresources-wrapper
+  .defaultnaturalresources-content-wrapper
+  > div:first-child
+  > div
+  > table
+  > tbody
+  > tr:nth-child(2) {
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 490px;
+  height: 46px;
+  margin-bottom: -390px;
+  margin-left: 82px;
+} */
 
 .naturalresources-wrapper
   .swiper-wrapper

@@ -27,6 +27,13 @@ Array.from(hotelsResortsBlock.children)
   .forEach((child) => {
     defaultContentWrapper.appendChild(child);
   });
+// Exemplo de como envolver um elemento movido em uma 'section'
+const newSection = document.createElement("section");
+newSection.className = "some-class"; // Se necessário, aplique classes aqui
+newSection.appendChild(columnsWrapper); // Adiciona o elemento ao newSection
+
+// Insere a nova 'section' no local desejado
+hotelsResortsContainer.insertAdjacentElement("afterend", newSection);
 
 //cria o swiper-container e os elementos relacionados
 const swiperContainer = document.createElement("div");

@@ -132,7 +132,7 @@
 }
 
 .swiper-slide > div > div:nth-child(2) {
-  margin-left: 21px;
+  margin-left: 35px;
   margin-top: -155px;
   display: flex;
   flex-direction: row;
@@ -148,7 +148,7 @@
 }
 
 .swiper-slide > div > div:nth-child(3) {
-  margin-left: 21px;
+  margin-left: 35px;
   margin-top: -70px;
   margin-bottom: 45px;
   color: white;
